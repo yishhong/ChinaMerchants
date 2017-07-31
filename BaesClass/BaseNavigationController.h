@@ -10,4 +10,6 @@
 
 @interface BaseNavigationController : UINavigationController
 
++ (instancetype)instantiationWithRootViewController:(UIViewController *)rootViewController;
+
 @end

@@ -36,7 +36,7 @@ target 'ChinaMerchants' do
     #键盘事件
     pod 'IQKeyboardManager'
     #极光推送
-    pod 'JPush', '3.0.0'
+    pod 'JPush'
     # 方便调试的辅助插件
     pod 'FLEX'
     # 集成环信

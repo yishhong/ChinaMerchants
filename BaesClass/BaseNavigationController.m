@@ -14,6 +14,13 @@
 
 @implementation BaseNavigationController
 
+
++ (instancetype)instantiationWithRootViewController:(UIViewController *)rootViewController{
+    
+    BaseNavigationController *navigationController = [[BaseNavigationController alloc] initWithRootViewController:rootViewController];
+    return navigationController;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
