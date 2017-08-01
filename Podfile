@@ -42,6 +42,6 @@ target 'ChinaMerchants' do
     # 集成环信
     pod 'Hyphenate'
     #集成本地环信UI
-#    pod 'EaseUI', :path => 'EaseUI'
+    pod 'EaseUI', :path => 'EaseUI'
 
 end

@@ -32,6 +32,14 @@
 		922F03491F2F17710007D8D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 922F03481F2F17710007D8D2 /* AppDelegate.m */; };
 		922F034C1F2F18450007D8D2 /* AppDelegate+MainUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 922F034B1F2F18450007D8D2 /* AppDelegate+MainUI.m */; };
 		922F034F1F2F19010007D8D2 /* RootController.m in Sources */ = {isa = PBXBuildFile; fileRef = 922F034E1F2F19010007D8D2 /* RootController.m */; };
+		92FD43561F300EBF005182CB /* EMChatManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FD434C1F300EBF005182CB /* EMChatManager.m */; };
+		92FD435D1F301272005182CB /* StorageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FD435A1F301272005182CB /* StorageManager.m */; };
+		92FD435E1F301272005182CB /* UserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FD435C1F301272005182CB /* UserManager.m */; };
+		92FD43611F3012C3005182CB /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FD43601F3012C3005182CB /* BaseModel.m */; };
+		92FD43721F30140F005182CB /* UserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FD43711F30140F005182CB /* UserInfoModel.m */; };
+		92FD43771F3014EB005182CB /* QMStorageManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FD43761F3014EB005182CB /* QMStorageManage.m */; };
+		92FD437B1F30153D005182CB /* InfoPlist.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FD437A1F30153D005182CB /* InfoPlist.m */; };
+		92FD43801F301721005182CB /* NSError+Reason.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FD437F1F301721005182CB /* NSError+Reason.m */; };
 		EBC73ED3A84E98C3F083EB4B /* libPods-ChinaMerchants.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8DCA71BEB114E87A0D908AB /* libPods-ChinaMerchants.a */; };
 /* End PBXBuildFile section */
 
@@ -104,6 +112,22 @@
 		922F034B1F2F18450007D8D2 /* AppDelegate+MainUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+MainUI.m"; sourceTree = "<group>"; };
 		922F034D1F2F19010007D8D2 /* RootController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootController.h; sourceTree = "<group>"; };
 		922F034E1F2F19010007D8D2 /* RootController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootController.m; sourceTree = "<group>"; };
+		92FD434B1F300EBF005182CB /* EMChatManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMChatManager.h; sourceTree = "<group>"; };
+		92FD434C1F300EBF005182CB /* EMChatManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMChatManager.m; sourceTree = "<group>"; };
+		92FD43591F301272005182CB /* StorageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StorageManager.h; sourceTree = "<group>"; };
+		92FD435A1F301272005182CB /* StorageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StorageManager.m; sourceTree = "<group>"; };
+		92FD435B1F301272005182CB /* UserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserManager.h; sourceTree = "<group>"; };
+		92FD435C1F301272005182CB /* UserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserManager.m; sourceTree = "<group>"; };
+		92FD435F1F3012C3005182CB /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		92FD43601F3012C3005182CB /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		92FD43701F30140F005182CB /* UserInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoModel.h; sourceTree = "<group>"; };
+		92FD43711F30140F005182CB /* UserInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoModel.m; sourceTree = "<group>"; };
+		92FD43751F3014EB005182CB /* QMStorageManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMStorageManage.h; sourceTree = "<group>"; };
+		92FD43761F3014EB005182CB /* QMStorageManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMStorageManage.m; sourceTree = "<group>"; };
+		92FD43791F30153D005182CB /* InfoPlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoPlist.h; sourceTree = "<group>"; };
+		92FD437A1F30153D005182CB /* InfoPlist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoPlist.m; sourceTree = "<group>"; };
+		92FD437E1F301721005182CB /* NSError+Reason.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+Reason.h"; sourceTree = "<group>"; };
+		92FD437F1F301721005182CB /* NSError+Reason.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+Reason.m"; sourceTree = "<group>"; };
 		94FEACF66D1AE40BB6E7D763 /* Pods-ChinaMerchants.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChinaMerchants.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChinaMerchants/Pods-ChinaMerchants.debug.xcconfig"; sourceTree = "<group>"; };
 		F66CAB4112F2ADD8C773AAAE /* Pods-ChinaMerchants.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChinaMerchants.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChinaMerchants/Pods-ChinaMerchants.release.xcconfig"; sourceTree = "<group>"; };
 		F8DCA71BEB114E87A0D908AB /* libPods-ChinaMerchants.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChinaMerchants.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -146,7 +170,10 @@
 		922F00721F2EDC200007D8D2 = {
 			isa = PBXGroup;
 			children = (
+				92FD43731F3014EB005182CB /* CHKit */,
+				92FD43571F30125F005182CB /* ChShare */,
 				922F00B11F2EDCA50007D8D2 /* CHTypeEnum.h */,
+				92FD43371F300EBE005182CB /* EaseChat */,
 				922F01121F2EDD660007D8D2 /* BaesClass */,
 				922F01131F2EDD660007D8D2 /* API */,
 				922F007D1F2EDC200007D8D2 /* ChinaMerchants */,
@@ -224,6 +251,8 @@
 				922F01181F2EDDDC0007D8D2 /* BaseTabBarController.m */,
 				922F011A1F2EE0230007D8D2 /* BaseNavigationController.h */,
 				922F011B1F2EE0230007D8D2 /* BaseNavigationController.m */,
+				92FD435F1F3012C3005182CB /* BaseModel.h */,
+				92FD43601F3012C3005182CB /* BaseModel.m */,
 			);
 			path = BaesClass;
 			sourceTree = "<group>";
@@ -231,6 +260,13 @@
 		922F01131F2EDD660007D8D2 /* API */ = {
 			isa = PBXGroup;
 			children = (
+				92FD43621F3013E3005182CB /* MineAPI */,
+				92FD43641F3013E3005182CB /* LoginAPI */,
+				92FD43661F3013E3005182CB /* DynamicAPI */,
+				92FD43681F3013E3005182CB /* StudyAPI */,
+				92FD436A1F3013E3005182CB /* WorkAPI */,
+				92FD436C1F3013E3005182CB /* ClubAPI */,
+				92FD436E1F3013E3005182CB /* UserAPI */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -360,6 +396,194 @@
 				922F034E1F2F19010007D8D2 /* RootController.m */,
 			);
 			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		92FD43371F300EBE005182CB /* EaseChat */ = {
+			isa = PBXGroup;
+			children = (
+				92FD434A1F300EBF005182CB /* EMChatManager */,
+			);
+			path = EaseChat;
+			sourceTree = "<group>";
+		};
+		92FD434A1F300EBF005182CB /* EMChatManager */ = {
+			isa = PBXGroup;
+			children = (
+				92FD434B1F300EBF005182CB /* EMChatManager.h */,
+				92FD434C1F300EBF005182CB /* EMChatManager.m */,
+			);
+			path = EMChatManager;
+			sourceTree = "<group>";
+		};
+		92FD43571F30125F005182CB /* ChShare */ = {
+			isa = PBXGroup;
+			children = (
+				92FD43581F301272005182CB /* Storage */,
+				92FD435B1F301272005182CB /* UserManager.h */,
+				92FD435C1F301272005182CB /* UserManager.m */,
+			);
+			path = ChShare;
+			sourceTree = "<group>";
+		};
+		92FD43581F301272005182CB /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				92FD43591F301272005182CB /* StorageManager.h */,
+				92FD435A1F301272005182CB /* StorageManager.m */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		92FD43621F3013E3005182CB /* MineAPI */ = {
+			isa = PBXGroup;
+			children = (
+				92FD43631F3013E3005182CB /* Model */,
+			);
+			path = MineAPI;
+			sourceTree = "<group>";
+		};
+		92FD43631F3013E3005182CB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		92FD43641F3013E3005182CB /* LoginAPI */ = {
+			isa = PBXGroup;
+			children = (
+				92FD43651F3013E3005182CB /* Model */,
+			);
+			path = LoginAPI;
+			sourceTree = "<group>";
+		};
+		92FD43651F3013E3005182CB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		92FD43661F3013E3005182CB /* DynamicAPI */ = {
+			isa = PBXGroup;
+			children = (
+				92FD43671F3013E3005182CB /* Model */,
+			);
+			path = DynamicAPI;
+			sourceTree = "<group>";
+		};
+		92FD43671F3013E3005182CB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		92FD43681F3013E3005182CB /* StudyAPI */ = {
+			isa = PBXGroup;
+			children = (
+				92FD43691F3013E3005182CB /* Model */,
+			);
+			path = StudyAPI;
+			sourceTree = "<group>";
+		};
+		92FD43691F3013E3005182CB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		92FD436A1F3013E3005182CB /* WorkAPI */ = {
+			isa = PBXGroup;
+			children = (
+				92FD436B1F3013E3005182CB /* Model */,
+			);
+			path = WorkAPI;
+			sourceTree = "<group>";
+		};
+		92FD436B1F3013E3005182CB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		92FD436C1F3013E3005182CB /* ClubAPI */ = {
+			isa = PBXGroup;
+			children = (
+				92FD436D1F3013E3005182CB /* Model */,
+			);
+			path = ClubAPI;
+			sourceTree = "<group>";
+		};
+		92FD436D1F3013E3005182CB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		92FD436E1F3013E3005182CB /* UserAPI */ = {
+			isa = PBXGroup;
+			children = (
+				92FD436F1F3013E3005182CB /* Model */,
+			);
+			path = UserAPI;
+			sourceTree = "<group>";
+		};
+		92FD436F1F3013E3005182CB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				92FD43701F30140F005182CB /* UserInfoModel.h */,
+				92FD43711F30140F005182CB /* UserInfoModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		92FD43731F3014EB005182CB /* CHKit */ = {
+			isa = PBXGroup;
+			children = (
+				92FD437C1F301721005182CB /* Category */,
+				92FD43781F30153D005182CB /* InfoPlist */,
+				92FD43741F3014EB005182CB /* QMStorage */,
+			);
+			path = CHKit;
+			sourceTree = "<group>";
+		};
+		92FD43741F3014EB005182CB /* QMStorage */ = {
+			isa = PBXGroup;
+			children = (
+				92FD43751F3014EB005182CB /* QMStorageManage.h */,
+				92FD43761F3014EB005182CB /* QMStorageManage.m */,
+			);
+			path = QMStorage;
+			sourceTree = "<group>";
+		};
+		92FD43781F30153D005182CB /* InfoPlist */ = {
+			isa = PBXGroup;
+			children = (
+				92FD43791F30153D005182CB /* InfoPlist.h */,
+				92FD437A1F30153D005182CB /* InfoPlist.m */,
+			);
+			path = InfoPlist;
+			sourceTree = "<group>";
+		};
+		92FD437C1F301721005182CB /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				92FD437D1F301721005182CB /* NSError */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		92FD437D1F301721005182CB /* NSError */ = {
+			isa = PBXGroup;
+			children = (
+				92FD437E1F301721005182CB /* NSError+Reason.h */,
+				92FD437F1F301721005182CB /* NSError+Reason.m */,
+			);
+			path = NSError;
 			sourceTree = "<group>";
 		};
 		A99AF56DA19C7EF83E0F29CF /* Pods */ = {
@@ -556,10 +780,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				922F03381F2F16D90007D8D2 /* StudyController.m in Sources */,
+				92FD43801F301721005182CB /* NSError+Reason.m in Sources */,
+				92FD43721F30140F005182CB /* UserInfoModel.m in Sources */,
 				922F01191F2EDDDC0007D8D2 /* BaseTabBarController.m in Sources */,
 				922F03321F2F16CC0007D8D2 /* MineController.m in Sources */,
 				922F032D1F2F16BC0007D8D2 /* WorkViewModel.m in Sources */,
 				922F00861F2EDC200007D8D2 /* ViewController.m in Sources */,
+				92FD43771F3014EB005182CB /* QMStorageManage.m in Sources */,
 				922F011C1F2EE0230007D8D2 /* BaseNavigationController.m in Sources */,
 				922F03441F2F16FD0007D8D2 /* LoginController.m in Sources */,
 				922F034F1F2F19010007D8D2 /* RootController.m in Sources */,
@@ -567,9 +794,14 @@
 				922F034C1F2F18450007D8D2 /* AppDelegate+MainUI.m in Sources */,
 				922F03491F2F17710007D8D2 /* AppDelegate.m in Sources */,
 				922F033F1F2F16EC0007D8D2 /* DynamicViewModel.m in Sources */,
+				92FD435E1F301272005182CB /* UserManager.m in Sources */,
 				922F03451F2F16FD0007D8D2 /* LoginViewModel.m in Sources */,
+				92FD435D1F301272005182CB /* StorageManager.m in Sources */,
 				922F03261F2F16AB0007D8D2 /* ClubController.m in Sources */,
+				92FD43561F300EBF005182CB /* EMChatManager.m in Sources */,
 				922F03331F2F16CC0007D8D2 /* MineViewModel.m in Sources */,
+				92FD437B1F30153D005182CB /* InfoPlist.m in Sources */,
+				92FD43611F3012C3005182CB /* BaseModel.m in Sources */,
 				922F033E1F2F16EC0007D8D2 /* DynamicController.m in Sources */,
 				922F032C1F2F16BC0007D8D2 /* WorkController.m in Sources */,
 				922F03271F2F16AB0007D8D2 /* ClubViewModel.m in Sources */,
