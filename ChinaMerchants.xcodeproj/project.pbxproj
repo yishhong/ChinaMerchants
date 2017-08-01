@@ -51,6 +51,8 @@
 		92FD43B01F30252A005182CB /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FD43A61F30252A005182CB /* NSString+Size.m */; };
 		92FD43B11F30252A005182CB /* UIColor+HUE.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FD43A91F30252A005182CB /* UIColor+HUE.m */; };
 		92FD43B21F30252A005182CB /* UIResponder+Empty.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FD43AC1F30252A005182CB /* UIResponder+Empty.m */; };
+		92FD43B81F30605C005182CB /* UINavigationBar+Awesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FD43B51F30605C005182CB /* UINavigationBar+Awesome.m */; };
+		92FD43B91F30605C005182CB /* UINavigationBar+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FD43B71F30605C005182CB /* UINavigationBar+Custom.m */; };
 		EBC73ED3A84E98C3F083EB4B /* libPods-ChinaMerchants.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8DCA71BEB114E87A0D908AB /* libPods-ChinaMerchants.a */; };
 /* End PBXBuildFile section */
 
@@ -160,6 +162,10 @@
 		92FD43A91F30252A005182CB /* UIColor+HUE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HUE.m"; sourceTree = "<group>"; };
 		92FD43AB1F30252A005182CB /* UIResponder+Empty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+Empty.h"; sourceTree = "<group>"; };
 		92FD43AC1F30252A005182CB /* UIResponder+Empty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+Empty.m"; sourceTree = "<group>"; };
+		92FD43B41F30605C005182CB /* UINavigationBar+Awesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Awesome.h"; sourceTree = "<group>"; };
+		92FD43B51F30605C005182CB /* UINavigationBar+Awesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Awesome.m"; sourceTree = "<group>"; };
+		92FD43B61F30605C005182CB /* UINavigationBar+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Custom.h"; sourceTree = "<group>"; };
+		92FD43B71F30605C005182CB /* UINavigationBar+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Custom.m"; sourceTree = "<group>"; };
 		94FEACF66D1AE40BB6E7D763 /* Pods-ChinaMerchants.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChinaMerchants.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChinaMerchants/Pods-ChinaMerchants.debug.xcconfig"; sourceTree = "<group>"; };
 		F66CAB4112F2ADD8C773AAAE /* Pods-ChinaMerchants.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChinaMerchants.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChinaMerchants/Pods-ChinaMerchants.release.xcconfig"; sourceTree = "<group>"; };
 		F8DCA71BEB114E87A0D908AB /* libPods-ChinaMerchants.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChinaMerchants.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -603,6 +609,7 @@
 		92FD437C1F301721005182CB /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				92FD43B31F30605C005182CB /* UINavigationBar */,
 				92FD439C1F30252A005182CB /* AttributedString */,
 				92FD439F1F30252A005182CB /* MBProgressHUD */,
 				92FD43A21F30252A005182CB /* NSString */,
@@ -709,6 +716,17 @@
 				92FD43AC1F30252A005182CB /* UIResponder+Empty.m */,
 			);
 			path = UIResponder;
+			sourceTree = "<group>";
+		};
+		92FD43B31F30605C005182CB /* UINavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				92FD43B41F30605C005182CB /* UINavigationBar+Awesome.h */,
+				92FD43B51F30605C005182CB /* UINavigationBar+Awesome.m */,
+				92FD43B61F30605C005182CB /* UINavigationBar+Custom.h */,
+				92FD43B71F30605C005182CB /* UINavigationBar+Custom.m */,
+			);
+			path = UINavigationBar;
 			sourceTree = "<group>";
 		};
 		A99AF56DA19C7EF83E0F29CF /* Pods */ = {
@@ -917,7 +935,9 @@
 				92FD438C1F301C95005182CB /* LoginViewModel.m in Sources */,
 				922F03321F2F16CC0007D8D2 /* MineController.m in Sources */,
 				92FD43981F301CC1005182CB /* AuthCodeViewModel.m in Sources */,
+				92FD43B91F30605C005182CB /* UINavigationBar+Custom.m in Sources */,
 				92FD43AF1F30252A005182CB /* NSString+Others.m in Sources */,
+				92FD43B81F30605C005182CB /* UINavigationBar+Awesome.m in Sources */,
 				922F032D1F2F16BC0007D8D2 /* WorkViewModel.m in Sources */,
 				922F00861F2EDC200007D8D2 /* ViewController.m in Sources */,
 				92FD43771F3014EB005182CB /* QMStorageManage.m in Sources */,

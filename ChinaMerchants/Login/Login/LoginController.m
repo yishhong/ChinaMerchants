@@ -12,6 +12,8 @@
 #import "UIColor+HUE.h"
 #import "RegisterController.h"
 #import "BaseNavigationController.h"
+#import "UINavigationBar+Custom.h"
+#import "UINavigationBar+Awesome.h"
 
 @interface LoginController ()<UITextFieldDelegate>
 
@@ -39,6 +41,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self.navigationController.navigationBar lt_setBackgroundColor:[UIColor clearColor] lineView:[UIColor clearColor]];
     self.viewModel = [[LoginViewModel alloc] init];
     [self setUI];
 }
@@ -142,6 +145,20 @@
         make.width.mas_offset(self.view.bounds.size.width-50);
         make.height.mas_offset(45);
     }];
+}
+
+- (void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    
+    [self.navigationController.navigationBar setTranslucent:YES];
+    [self.navigationController.navigationBar lt_setBackgroundColor:[UIColor clearColor] lineView:[UIColor clearColor]];
+    [self.navigationController.navigationBar setShadowImage:[UIImage new]];
+}
+
+- (void)viewWillDisappear:(BOOL)animated{
+    [super viewWillDisappear:animated];
+    [self.navigationController.navigationBar setTranslucent:NO];
+    [self.navigationController.navigationBar lt_reset];
 }
 
 //立即注册

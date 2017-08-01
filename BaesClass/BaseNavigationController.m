@@ -7,6 +7,7 @@
 //
 
 #import "BaseNavigationController.h"
+#import "UIColor+HUE.h"
 
 @interface BaseNavigationController ()
 
@@ -23,7 +24,32 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+    self.navigationBar.translucent =NO;
+    [self.navigationBar setTintColor:[UIColor VPTitleColor]];
+    [self.navigationBar setBarTintColor:[UIColor whiteColor]];
+    
+    
+//    [self.navigationBar xx_titleStyleWithColor:[UIColor VPTitleColor]];
+    
+    //    NSMutableDictionary *dic=[NSMutableDictionary dictionary];
+    //    dic[NSFontAttributeName]=[UIFont systemFontOfSize:17];
+    //    dic[NSForegroundColorAttributeName]=[UIColor VPTitleColor];
+    //    [self.navigationBar setTitleTextAttributes:dic];
+}
+
+- (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated{
+    //设置返回按钮额文字为@“”
+    UIBarButtonItem *backItem = [[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStylePlain target:self action:@selector(back)];
+    UIViewController *oldVC = [self.viewControllers lastObject];
+    oldVC.navigationItem.backBarButtonItem = backItem;
+    
+    [super pushViewController:viewController animated:animated];
+}
+
+- (void)back{
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -40,6 +40,7 @@
     //    self.phoneTextField.delegate =self;
     self.authCodeTextField.borderStyle =UITextBorderStyleNone;
     self.authCodeTextField.placeholder =@"验证码";
+    self.authCodeTextField.textAlignment =NSTextAlignmentCenter;
     self.authCodeTextField.leftView =[[UIView alloc]initWithFrame:CGRectMake(0, 0, 10, 25)];
     self.authCodeTextField.leftViewMode =UITextFieldViewModeAlways;
     self.authCodeTextField.clearButtonMode =UITextFieldViewModeWhileEditing;
