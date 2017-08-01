@@ -8,6 +8,7 @@
 
 #import "MineController.h"
 #import "MineViewModel.h"
+#import "LoginController.h"
 
 @interface MineController ()
 
@@ -34,7 +35,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.viewModel = [[MineViewModel alloc] init];
-
+    
+    LoginController * loginController =[LoginController instantiation];
+    [self.navigationController pushViewController:loginController animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {
