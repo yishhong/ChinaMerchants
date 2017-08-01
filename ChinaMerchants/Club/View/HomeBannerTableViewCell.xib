@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="KGk-i7-Jjw" customClass="HomeBannerTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="149.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EFW-Gh-GGW" customClass="SDCycleScrollView">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="149.5"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="EFW-Gh-GGW" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="5vQ-n5-fvX"/>
+                    <constraint firstItem="EFW-Gh-GGW" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="7Yn-AR-pDy"/>
+                    <constraint firstAttribute="trailing" secondItem="EFW-Gh-GGW" secondAttribute="trailing" id="oHh-Vx-M4i"/>
+                    <constraint firstAttribute="bottom" secondItem="EFW-Gh-GGW" secondAttribute="bottom" id="wRK-4r-ylN"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="bannerView" destination="EFW-Gh-GGW" id="hC1-bO-wYL"/>
+            </connections>
+            <point key="canvasLocation" x="33.5" y="54"/>
+        </tableViewCell>
+    </objects>
+</document>

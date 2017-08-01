@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="KGk-i7-Jjw" customClass="ClubNameTableCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="沙特俱乐部公馆" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pcI-xR-Aob">
+                        <rect key="frame" x="127" y="25" width="121.5" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="专业的团队一拖四专业的团队一拖四专业的团队一拖四专业的团队一拖四专业的团队一拖四专业的团队一拖四" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2oS-gR-T8C">
+                        <rect key="frame" x="20" y="56" width="335" height="29"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="pcI-xR-Aob" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="5t4-2z-H3D"/>
+                    <constraint firstItem="pcI-xR-Aob" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="25" id="B1N-J8-gC5"/>
+                    <constraint firstItem="2oS-gR-T8C" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="Gae-Bd-KdI"/>
+                    <constraint firstItem="2oS-gR-T8C" firstAttribute="top" secondItem="pcI-xR-Aob" secondAttribute="bottom" constant="10" id="PGZ-hD-Y1f"/>
+                    <constraint firstAttribute="trailing" secondItem="2oS-gR-T8C" secondAttribute="trailing" constant="20" id="w1N-5M-EHW"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="descLabel" destination="2oS-gR-T8C" id="PWa-pD-U33"/>
+                <outlet property="nameLabel" destination="pcI-xR-Aob" id="aq5-rR-4ir"/>
+            </connections>
+            <point key="canvasLocation" x="33.5" y="54"/>
+        </tableViewCell>
+    </objects>
+</document>

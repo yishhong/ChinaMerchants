@@ -30,6 +30,21 @@
 		922F03491F2F17710007D8D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 922F03481F2F17710007D8D2 /* AppDelegate.m */; };
 		922F034C1F2F18450007D8D2 /* AppDelegate+MainUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 922F034B1F2F18450007D8D2 /* AppDelegate+MainUI.m */; };
 		922F034F1F2F19010007D8D2 /* RootController.m in Sources */ = {isa = PBXBuildFile; fileRef = 922F034E1F2F19010007D8D2 /* RootController.m */; };
+		92C9A7951F307B3F007938C1 /* ClubAddressTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9A7931F307B3F007938C1 /* ClubAddressTableCell.m */; };
+		92C9A7961F307B3F007938C1 /* ClubAddressTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92C9A7941F307B3F007938C1 /* ClubAddressTableCell.xib */; };
+		92C9A79A1F307EBE007938C1 /* ClubCoachTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9A7981F307EBE007938C1 /* ClubCoachTableCell.m */; };
+		92C9A79B1F307EBE007938C1 /* ClubCoachTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92C9A7991F307EBE007938C1 /* ClubCoachTableCell.xib */; };
+		92C9A79E1F308211007938C1 /* RankingImageViewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9A79D1F308211007938C1 /* RankingImageViewTableViewCell.m */; };
+		92C9A7A51F308274007938C1 /* RankingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9A7A11F308274007938C1 /* RankingCollectionView.m */; };
+		92C9A7A61F308274007938C1 /* RankingCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9A7A31F308274007938C1 /* RankingCollectionViewCell.m */; };
+		92C9A7A71F308274007938C1 /* RankingCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92C9A7A41F308274007938C1 /* RankingCollectionViewCell.xib */; };
+		92C9A7AB1F3084BB007938C1 /* ClubSectionTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9A7A91F3084BB007938C1 /* ClubSectionTableCell.m */; };
+		92C9A7AC1F3084BB007938C1 /* ClubSectionTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92C9A7AA1F3084BB007938C1 /* ClubSectionTableCell.xib */; };
+		92C9A7B01F308597007938C1 /* ClubClassImageTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9A7AE1F308597007938C1 /* ClubClassImageTableCell.m */; };
+		92C9A7B11F308597007938C1 /* ClubClassImageTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92C9A7AF1F308597007938C1 /* ClubClassImageTableCell.xib */; };
+		92C9A7B51F308758007938C1 /* ClubVideoTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9A7B31F308758007938C1 /* ClubVideoTableCell.m */; };
+		92C9A7B61F308758007938C1 /* ClubVideoTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92C9A7B41F308758007938C1 /* ClubVideoTableCell.xib */; };
+		92C9A7BA1F308A9F007938C1 /* UIImageView+Load.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9A7B91F308A9F007938C1 /* UIImageView+Load.m */; };
 		92FD43561F300EBF005182CB /* EMChatManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FD434C1F300EBF005182CB /* EMChatManager.m */; };
 		92FD435D1F301272005182CB /* StorageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FD435A1F301272005182CB /* StorageManager.m */; };
 		92FD435E1F301272005182CB /* UserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FD435C1F301272005182CB /* UserManager.m */; };
@@ -53,6 +68,19 @@
 		92FD43B21F30252A005182CB /* UIResponder+Empty.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FD43AC1F30252A005182CB /* UIResponder+Empty.m */; };
 		92FD43B81F30605C005182CB /* UINavigationBar+Awesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FD43B51F30605C005182CB /* UINavigationBar+Awesome.m */; };
 		92FD43B91F30605C005182CB /* UINavigationBar+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FD43B71F30605C005182CB /* UINavigationBar+Custom.m */; };
+		92FD43BD1F306B25005182CB /* HomeBannerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FD43BB1F306B25005182CB /* HomeBannerTableViewCell.m */; };
+		92FD43BE1F306B25005182CB /* HomeBannerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92FD43BC1F306B25005182CB /* HomeBannerTableViewCell.xib */; };
+		92FD43C51F306B85005182CB /* UITableViewCell+DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FD43C21F306B85005182CB /* UITableViewCell+DataSource.m */; };
+		92FD43C61F306B85005182CB /* XXCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FD43C41F306B85005182CB /* XXCellModel.m */; };
+		92FD43C91F306BE1005182CB /* WYWLineTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FD43C81F306BE1005182CB /* WYWLineTableViewCell.m */; };
+		92FD43CE1F306D54005182CB /* ClubInformationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FD43CB1F306D54005182CB /* ClubInformationController.m */; };
+		92FD43CF1F306D54005182CB /* ClubInformationViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FD43CD1F306D54005182CB /* ClubInformationViewModel.m */; };
+		92FD43D41F306D8B005182CB /* ClubSynopsisController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FD43D11F306D8B005182CB /* ClubSynopsisController.m */; };
+		92FD43D51F306D8B005182CB /* ClubSynopsisViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FD43D31F306D8B005182CB /* ClubSynopsisViewModel.m */; };
+		92FD43D91F306E24005182CB /* CAPSPageMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FD43D81F306E24005182CB /* CAPSPageMenu.m */; };
+		92FD43DC1F307080005182CB /* BannerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FD43DB1F307080005182CB /* BannerModel.m */; };
+		92FD43E01F307691005182CB /* ClubNameTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FD43DE1F307691005182CB /* ClubNameTableCell.m */; };
+		92FD43E11F307691005182CB /* ClubNameTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92FD43DF1F307691005182CB /* ClubNameTableCell.xib */; };
 		EBC73ED3A84E98C3F083EB4B /* libPods-ChinaMerchants.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8DCA71BEB114E87A0D908AB /* libPods-ChinaMerchants.a */; };
 /* End PBXBuildFile section */
 
@@ -121,6 +149,30 @@
 		922F034B1F2F18450007D8D2 /* AppDelegate+MainUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+MainUI.m"; sourceTree = "<group>"; };
 		922F034D1F2F19010007D8D2 /* RootController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootController.h; sourceTree = "<group>"; };
 		922F034E1F2F19010007D8D2 /* RootController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootController.m; sourceTree = "<group>"; };
+		92C9A7921F307B3F007938C1 /* ClubAddressTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClubAddressTableCell.h; sourceTree = "<group>"; };
+		92C9A7931F307B3F007938C1 /* ClubAddressTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClubAddressTableCell.m; sourceTree = "<group>"; };
+		92C9A7941F307B3F007938C1 /* ClubAddressTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClubAddressTableCell.xib; sourceTree = "<group>"; };
+		92C9A7971F307EBE007938C1 /* ClubCoachTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClubCoachTableCell.h; sourceTree = "<group>"; };
+		92C9A7981F307EBE007938C1 /* ClubCoachTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClubCoachTableCell.m; sourceTree = "<group>"; };
+		92C9A7991F307EBE007938C1 /* ClubCoachTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClubCoachTableCell.xib; sourceTree = "<group>"; };
+		92C9A79C1F308211007938C1 /* RankingImageViewTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RankingImageViewTableViewCell.h; sourceTree = "<group>"; };
+		92C9A79D1F308211007938C1 /* RankingImageViewTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RankingImageViewTableViewCell.m; sourceTree = "<group>"; };
+		92C9A7A01F308274007938C1 /* RankingCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RankingCollectionView.h; sourceTree = "<group>"; };
+		92C9A7A11F308274007938C1 /* RankingCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RankingCollectionView.m; sourceTree = "<group>"; };
+		92C9A7A21F308274007938C1 /* RankingCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RankingCollectionViewCell.h; sourceTree = "<group>"; };
+		92C9A7A31F308274007938C1 /* RankingCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RankingCollectionViewCell.m; sourceTree = "<group>"; };
+		92C9A7A41F308274007938C1 /* RankingCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RankingCollectionViewCell.xib; sourceTree = "<group>"; };
+		92C9A7A81F3084BB007938C1 /* ClubSectionTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClubSectionTableCell.h; sourceTree = "<group>"; };
+		92C9A7A91F3084BB007938C1 /* ClubSectionTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClubSectionTableCell.m; sourceTree = "<group>"; };
+		92C9A7AA1F3084BB007938C1 /* ClubSectionTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClubSectionTableCell.xib; sourceTree = "<group>"; };
+		92C9A7AD1F308597007938C1 /* ClubClassImageTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClubClassImageTableCell.h; sourceTree = "<group>"; };
+		92C9A7AE1F308597007938C1 /* ClubClassImageTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClubClassImageTableCell.m; sourceTree = "<group>"; };
+		92C9A7AF1F308597007938C1 /* ClubClassImageTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClubClassImageTableCell.xib; sourceTree = "<group>"; };
+		92C9A7B21F308758007938C1 /* ClubVideoTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClubVideoTableCell.h; sourceTree = "<group>"; };
+		92C9A7B31F308758007938C1 /* ClubVideoTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClubVideoTableCell.m; sourceTree = "<group>"; };
+		92C9A7B41F308758007938C1 /* ClubVideoTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClubVideoTableCell.xib; sourceTree = "<group>"; };
+		92C9A7B81F308A9F007938C1 /* UIImageView+Load.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Load.h"; sourceTree = "<group>"; };
+		92C9A7B91F308A9F007938C1 /* UIImageView+Load.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Load.m"; sourceTree = "<group>"; };
 		92FD434B1F300EBF005182CB /* EMChatManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMChatManager.h; sourceTree = "<group>"; };
 		92FD434C1F300EBF005182CB /* EMChatManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMChatManager.m; sourceTree = "<group>"; };
 		92FD43591F301272005182CB /* StorageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StorageManager.h; sourceTree = "<group>"; };
@@ -166,6 +218,30 @@
 		92FD43B51F30605C005182CB /* UINavigationBar+Awesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Awesome.m"; sourceTree = "<group>"; };
 		92FD43B61F30605C005182CB /* UINavigationBar+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Custom.h"; sourceTree = "<group>"; };
 		92FD43B71F30605C005182CB /* UINavigationBar+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Custom.m"; sourceTree = "<group>"; };
+		92FD43BA1F306B25005182CB /* HomeBannerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeBannerTableViewCell.h; sourceTree = "<group>"; };
+		92FD43BB1F306B25005182CB /* HomeBannerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeBannerTableViewCell.m; sourceTree = "<group>"; };
+		92FD43BC1F306B25005182CB /* HomeBannerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeBannerTableViewCell.xib; sourceTree = "<group>"; };
+		92FD43C11F306B85005182CB /* UITableViewCell+DataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+DataSource.h"; sourceTree = "<group>"; };
+		92FD43C21F306B85005182CB /* UITableViewCell+DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+DataSource.m"; sourceTree = "<group>"; };
+		92FD43C31F306B85005182CB /* XXCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXCellModel.h; sourceTree = "<group>"; };
+		92FD43C41F306B85005182CB /* XXCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXCellModel.m; sourceTree = "<group>"; };
+		92FD43C71F306BE1005182CB /* WYWLineTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYWLineTableViewCell.h; sourceTree = "<group>"; };
+		92FD43C81F306BE1005182CB /* WYWLineTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYWLineTableViewCell.m; sourceTree = "<group>"; };
+		92FD43CA1F306D54005182CB /* ClubInformationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClubInformationController.h; sourceTree = "<group>"; };
+		92FD43CB1F306D54005182CB /* ClubInformationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClubInformationController.m; sourceTree = "<group>"; };
+		92FD43CC1F306D54005182CB /* ClubInformationViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClubInformationViewModel.h; sourceTree = "<group>"; };
+		92FD43CD1F306D54005182CB /* ClubInformationViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClubInformationViewModel.m; sourceTree = "<group>"; };
+		92FD43D01F306D8B005182CB /* ClubSynopsisController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClubSynopsisController.h; sourceTree = "<group>"; };
+		92FD43D11F306D8B005182CB /* ClubSynopsisController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClubSynopsisController.m; sourceTree = "<group>"; };
+		92FD43D21F306D8B005182CB /* ClubSynopsisViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClubSynopsisViewModel.h; sourceTree = "<group>"; };
+		92FD43D31F306D8B005182CB /* ClubSynopsisViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClubSynopsisViewModel.m; sourceTree = "<group>"; };
+		92FD43D71F306E24005182CB /* CAPSPageMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAPSPageMenu.h; sourceTree = "<group>"; };
+		92FD43D81F306E24005182CB /* CAPSPageMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAPSPageMenu.m; sourceTree = "<group>"; };
+		92FD43DA1F307080005182CB /* BannerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerModel.h; sourceTree = "<group>"; };
+		92FD43DB1F307080005182CB /* BannerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerModel.m; sourceTree = "<group>"; };
+		92FD43DD1F307691005182CB /* ClubNameTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClubNameTableCell.h; sourceTree = "<group>"; };
+		92FD43DE1F307691005182CB /* ClubNameTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClubNameTableCell.m; sourceTree = "<group>"; };
+		92FD43DF1F307691005182CB /* ClubNameTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClubNameTableCell.xib; sourceTree = "<group>"; };
 		94FEACF66D1AE40BB6E7D763 /* Pods-ChinaMerchants.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChinaMerchants.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChinaMerchants/Pods-ChinaMerchants.debug.xcconfig"; sourceTree = "<group>"; };
 		F66CAB4112F2ADD8C773AAAE /* Pods-ChinaMerchants.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChinaMerchants.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChinaMerchants/Pods-ChinaMerchants.release.xcconfig"; sourceTree = "<group>"; };
 		F8DCA71BEB114E87A0D908AB /* libPods-ChinaMerchants.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChinaMerchants.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -393,6 +469,14 @@
 				922F03231F2F16AB0007D8D2 /* ClubController.m */,
 				922F03241F2F16AB0007D8D2 /* ClubViewModel.h */,
 				922F03251F2F16AB0007D8D2 /* ClubViewModel.m */,
+				92FD43CA1F306D54005182CB /* ClubInformationController.h */,
+				92FD43CB1F306D54005182CB /* ClubInformationController.m */,
+				92FD43CC1F306D54005182CB /* ClubInformationViewModel.h */,
+				92FD43CD1F306D54005182CB /* ClubInformationViewModel.m */,
+				92FD43D01F306D8B005182CB /* ClubSynopsisController.h */,
+				92FD43D11F306D8B005182CB /* ClubSynopsisController.m */,
+				92FD43D21F306D8B005182CB /* ClubSynopsisViewModel.h */,
+				92FD43D31F306D8B005182CB /* ClubSynopsisViewModel.m */,
 			);
 			path = Club;
 			sourceTree = "<group>";
@@ -400,6 +484,32 @@
 		922F031F1F2F16890007D8D2 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				92C9A79F1F308274007938C1 /* CoachView */,
+				92C9A79C1F308211007938C1 /* RankingImageViewTableViewCell.h */,
+				92C9A79D1F308211007938C1 /* RankingImageViewTableViewCell.m */,
+				92FD43C71F306BE1005182CB /* WYWLineTableViewCell.h */,
+				92FD43C81F306BE1005182CB /* WYWLineTableViewCell.m */,
+				92FD43BA1F306B25005182CB /* HomeBannerTableViewCell.h */,
+				92FD43BB1F306B25005182CB /* HomeBannerTableViewCell.m */,
+				92FD43BC1F306B25005182CB /* HomeBannerTableViewCell.xib */,
+				92FD43DD1F307691005182CB /* ClubNameTableCell.h */,
+				92FD43DE1F307691005182CB /* ClubNameTableCell.m */,
+				92FD43DF1F307691005182CB /* ClubNameTableCell.xib */,
+				92C9A7921F307B3F007938C1 /* ClubAddressTableCell.h */,
+				92C9A7931F307B3F007938C1 /* ClubAddressTableCell.m */,
+				92C9A7941F307B3F007938C1 /* ClubAddressTableCell.xib */,
+				92C9A7971F307EBE007938C1 /* ClubCoachTableCell.h */,
+				92C9A7981F307EBE007938C1 /* ClubCoachTableCell.m */,
+				92C9A7991F307EBE007938C1 /* ClubCoachTableCell.xib */,
+				92C9A7A81F3084BB007938C1 /* ClubSectionTableCell.h */,
+				92C9A7A91F3084BB007938C1 /* ClubSectionTableCell.m */,
+				92C9A7AA1F3084BB007938C1 /* ClubSectionTableCell.xib */,
+				92C9A7AD1F308597007938C1 /* ClubClassImageTableCell.h */,
+				92C9A7AE1F308597007938C1 /* ClubClassImageTableCell.m */,
+				92C9A7AF1F308597007938C1 /* ClubClassImageTableCell.xib */,
+				92C9A7B21F308758007938C1 /* ClubVideoTableCell.h */,
+				92C9A7B31F308758007938C1 /* ClubVideoTableCell.m */,
+				92C9A7B41F308758007938C1 /* ClubVideoTableCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -433,6 +543,27 @@
 				922F034E1F2F19010007D8D2 /* RootController.m */,
 			);
 			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		92C9A79F1F308274007938C1 /* CoachView */ = {
+			isa = PBXGroup;
+			children = (
+				92C9A7A01F308274007938C1 /* RankingCollectionView.h */,
+				92C9A7A11F308274007938C1 /* RankingCollectionView.m */,
+				92C9A7A21F308274007938C1 /* RankingCollectionViewCell.h */,
+				92C9A7A31F308274007938C1 /* RankingCollectionViewCell.m */,
+				92C9A7A41F308274007938C1 /* RankingCollectionViewCell.xib */,
+			);
+			path = CoachView;
+			sourceTree = "<group>";
+		};
+		92C9A7B71F308A9F007938C1 /* UIImageView */ = {
+			isa = PBXGroup;
+			children = (
+				92C9A7B81F308A9F007938C1 /* UIImageView+Load.h */,
+				92C9A7B91F308A9F007938C1 /* UIImageView+Load.m */,
+			);
+			path = UIImageView;
 			sourceTree = "<group>";
 		};
 		92FD43371F300EBE005182CB /* EaseChat */ = {
@@ -557,6 +688,8 @@
 		92FD436D1F3013E3005182CB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				92FD43DA1F307080005182CB /* BannerModel.h */,
+				92FD43DB1F307080005182CB /* BannerModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -581,6 +714,8 @@
 		92FD43731F3014EB005182CB /* CHKit */ = {
 			isa = PBXGroup;
 			children = (
+				92FD43D61F306E24005182CB /* CAPSPageMenu */,
+				92FD43BF1F306B85005182CB /* XXCellModel */,
 				92FD437C1F301721005182CB /* Category */,
 				92FD43781F30153D005182CB /* InfoPlist */,
 				92FD43741F3014EB005182CB /* QMStorage */,
@@ -609,6 +744,7 @@
 		92FD437C1F301721005182CB /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				92C9A7B71F308A9F007938C1 /* UIImageView */,
 				92FD43B31F30605C005182CB /* UINavigationBar */,
 				92FD439C1F30252A005182CB /* AttributedString */,
 				92FD439F1F30252A005182CB /* MBProgressHUD */,
@@ -729,6 +865,34 @@
 			path = UINavigationBar;
 			sourceTree = "<group>";
 		};
+		92FD43BF1F306B85005182CB /* XXCellModel */ = {
+			isa = PBXGroup;
+			children = (
+				92FD43C01F306B85005182CB /* TableViewCell */,
+				92FD43C31F306B85005182CB /* XXCellModel.h */,
+				92FD43C41F306B85005182CB /* XXCellModel.m */,
+			);
+			path = XXCellModel;
+			sourceTree = "<group>";
+		};
+		92FD43C01F306B85005182CB /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				92FD43C11F306B85005182CB /* UITableViewCell+DataSource.h */,
+				92FD43C21F306B85005182CB /* UITableViewCell+DataSource.m */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		92FD43D61F306E24005182CB /* CAPSPageMenu */ = {
+			isa = PBXGroup;
+			children = (
+				92FD43D71F306E24005182CB /* CAPSPageMenu.h */,
+				92FD43D81F306E24005182CB /* CAPSPageMenu.m */,
+			);
+			path = CAPSPageMenu;
+			sourceTree = "<group>";
+		};
 		A99AF56DA19C7EF83E0F29CF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -847,9 +1011,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92C9A7A71F308274007938C1 /* RankingCollectionViewCell.xib in Resources */,
+				92C9A7B11F308597007938C1 /* ClubClassImageTableCell.xib in Resources */,
+				92C9A7961F307B3F007938C1 /* ClubAddressTableCell.xib in Resources */,
+				92FD43BE1F306B25005182CB /* HomeBannerTableViewCell.xib in Resources */,
+				92FD43E11F307691005182CB /* ClubNameTableCell.xib in Resources */,
+				92C9A79B1F307EBE007938C1 /* ClubCoachTableCell.xib in Resources */,
 				922F008E1F2EDC200007D8D2 /* LaunchScreen.storyboard in Resources */,
 				922F008B1F2EDC200007D8D2 /* Assets.xcassets in Resources */,
+				92C9A7B61F308758007938C1 /* ClubVideoTableCell.xib in Resources */,
 				92FD439B1F301F84005182CB /* CHImages.xcassets in Resources */,
+				92C9A7AC1F3084BB007938C1 /* ClubSectionTableCell.xib in Resources */,
 				922F00891F2EDC200007D8D2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -925,21 +1097,28 @@
 			files = (
 				922F03381F2F16D90007D8D2 /* StudyController.m in Sources */,
 				92FD43801F301721005182CB /* NSError+Reason.m in Sources */,
+				92FD43BD1F306B25005182CB /* HomeBannerTableViewCell.m in Sources */,
 				92FD43911F301CB0005182CB /* RegisterController.m in Sources */,
 				92FD43721F30140F005182CB /* UserInfoModel.m in Sources */,
+				92C9A79E1F308211007938C1 /* RankingImageViewTableViewCell.m in Sources */,
 				92FD43B21F30252A005182CB /* UIResponder+Empty.m in Sources */,
 				92FD43B01F30252A005182CB /* NSString+Size.m in Sources */,
 				92FD43AE1F30252A005182CB /* MBProgressHUD+Loading.m in Sources */,
 				922F01191F2EDDDC0007D8D2 /* BaseTabBarController.m in Sources */,
+				92FD43DC1F307080005182CB /* BannerModel.m in Sources */,
 				92FD43B11F30252A005182CB /* UIColor+HUE.m in Sources */,
 				92FD438C1F301C95005182CB /* LoginViewModel.m in Sources */,
 				922F03321F2F16CC0007D8D2 /* MineController.m in Sources */,
 				92FD43981F301CC1005182CB /* AuthCodeViewModel.m in Sources */,
+				92FD43D91F306E24005182CB /* CAPSPageMenu.m in Sources */,
 				92FD43B91F30605C005182CB /* UINavigationBar+Custom.m in Sources */,
 				92FD43AF1F30252A005182CB /* NSString+Others.m in Sources */,
+				92C9A7951F307B3F007938C1 /* ClubAddressTableCell.m in Sources */,
 				92FD43B81F30605C005182CB /* UINavigationBar+Awesome.m in Sources */,
 				922F032D1F2F16BC0007D8D2 /* WorkViewModel.m in Sources */,
+				92FD43E01F307691005182CB /* ClubNameTableCell.m in Sources */,
 				922F00861F2EDC200007D8D2 /* ViewController.m in Sources */,
+				92C9A7A61F308274007938C1 /* RankingCollectionViewCell.m in Sources */,
 				92FD43771F3014EB005182CB /* QMStorageManage.m in Sources */,
 				922F011C1F2EE0230007D8D2 /* BaseNavigationController.m in Sources */,
 				922F034F1F2F19010007D8D2 /* RootController.m in Sources */,
@@ -947,21 +1126,34 @@
 				922F01161F2EDDA60007D8D2 /* BaseViewController.m in Sources */,
 				922F034C1F2F18450007D8D2 /* AppDelegate+MainUI.m in Sources */,
 				922F03491F2F17710007D8D2 /* AppDelegate.m in Sources */,
+				92FD43C61F306B85005182CB /* XXCellModel.m in Sources */,
 				92FD43921F301CB0005182CB /* RegisterViewModel.m in Sources */,
 				922F033F1F2F16EC0007D8D2 /* DynamicViewModel.m in Sources */,
+				92FD43D51F306D8B005182CB /* ClubSynopsisViewModel.m in Sources */,
+				92C9A7B01F308597007938C1 /* ClubClassImageTableCell.m in Sources */,
 				92FD435E1F301272005182CB /* UserManager.m in Sources */,
 				92FD435D1F301272005182CB /* StorageManager.m in Sources */,
 				922F03261F2F16AB0007D8D2 /* ClubController.m in Sources */,
+				92FD43CF1F306D54005182CB /* ClubInformationViewModel.m in Sources */,
+				92FD43C51F306B85005182CB /* UITableViewCell+DataSource.m in Sources */,
 				92FD438B1F301C95005182CB /* LoginController.m in Sources */,
 				92FD43561F300EBF005182CB /* EMChatManager.m in Sources */,
+				92FD43D41F306D8B005182CB /* ClubSynopsisController.m in Sources */,
 				922F03331F2F16CC0007D8D2 /* MineViewModel.m in Sources */,
+				92FD43CE1F306D54005182CB /* ClubInformationController.m in Sources */,
 				92FD437B1F30153D005182CB /* InfoPlist.m in Sources */,
+				92C9A7AB1F3084BB007938C1 /* ClubSectionTableCell.m in Sources */,
+				92C9A7BA1F308A9F007938C1 /* UIImageView+Load.m in Sources */,
+				92C9A79A1F307EBE007938C1 /* ClubCoachTableCell.m in Sources */,
 				92FD43611F3012C3005182CB /* BaseModel.m in Sources */,
 				922F033E1F2F16EC0007D8D2 /* DynamicController.m in Sources */,
 				92FD43AD1F30252A005182CB /* NSMutableAttributedString+AttributedString.m in Sources */,
+				92FD43C91F306BE1005182CB /* WYWLineTableViewCell.m in Sources */,
 				922F032C1F2F16BC0007D8D2 /* WorkController.m in Sources */,
 				922F03271F2F16AB0007D8D2 /* ClubViewModel.m in Sources */,
 				922F03391F2F16D90007D8D2 /* StudyViewModel.m in Sources */,
+				92C9A7A51F308274007938C1 /* RankingCollectionView.m in Sources */,
+				92C9A7B51F308758007938C1 /* ClubVideoTableCell.m in Sources */,
 				922F00801F2EDC200007D8D2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

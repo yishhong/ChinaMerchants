@@ -8,8 +8,15 @@
 
 #import "ClubController.h"
 #import "ClubViewModel.h"
+#import "CAPSPageMenu.h"
+#import "ClubSynopsisController.h"
+#import "ClubInformationController.h"
+#import "UIColor+HUE.h"
 
-@interface ClubController ()
+
+@interface ClubController ()<CAPSPageMenuDelegate>
+
+@property (strong,nonatomic) CAPSPageMenu * pageMenu;
 
 @property (nonatomic, strong) ClubViewModel *viewModel;
 
@@ -33,8 +40,33 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     self.viewModel = [[ClubViewModel alloc] init];
 
+    NSMutableArray * viewControllerArray =[[NSMutableArray alloc]init];
+    
+    ClubSynopsisController * synopsisController =[ClubSynopsisController instantiation];
+    synopsisController.title =@"简介";
+    [viewControllerArray addObject:synopsisController];
+    
+    ClubInformationController * informationController =[ClubInformationController instantiation];
+    informationController.title =@"资讯";
+    [viewControllerArray addObject:informationController];
+    
+    NSDictionary *parameters =@{
+                                CAPSPageMenuOptionMenuItemSeparatorWidth: @(1.0),
+                                CAPSPageMenuOptionUseMenuLikeSegmentedControl: @(YES),
+                                CAPSPageMenuOptionMenuItemSeparatorPercentageHeight: @(0.1),
+                                CAPSPageMenuOptionScrollMenuBackgroundColor:[UIColor whiteColor],
+                                CAPSPageMenuOptionMenuHeight: @40,
+                                CAPSPageMenuOptionSelectedMenuItemLabelColor:[UIColor VPTitleColor],
+                                CAPSPageMenuOptionSelectionIndicatorColor: [UIColor blackColor],
+                                CAPSPageMenuOptionBottomMenuHairlineColor: [UIColor whiteColor]
+                                };
+    _pageMenu =[[CAPSPageMenu alloc]initWithViewControllers:viewControllerArray frame:CGRectMake(0, 0, self.view.bounds.size.width,self.view.bounds.size.height) options:parameters];
+    _pageMenu.delegate=self;
+    [self.view addSubview:_pageMenu.view];
+    [self addChildViewController:_pageMenu];
 }
 
 - (void)didReceiveMemoryWarning {
