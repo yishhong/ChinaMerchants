@@ -9,12 +9,14 @@
 #import "ClubInformationController.h"
 #import "ClubInformationViewModel.h"
 #import "UIColor+HUE.h"
-#import "QMCalendarView.h"
-#import "QMClassCalendarView.h"
+#import "ClubNewClassTableCell.h"
+#import "WYWLineTableViewCell.h"
 
-@interface ClubInformationController ()
+@interface ClubInformationController ()<UITableViewDelegate,UITableViewDataSource>
 
 @property (nonatomic, strong) ClubInformationViewModel *viewModel;
+
+@property (nonatomic, strong) UITableView * tableView;
 
 @end
 
@@ -28,18 +30,50 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.viewModel = [[ClubInformationViewModel alloc] init];
-    //学习日历
-//    QMCalendarView * calendarView =[[QMCalendarView alloc]initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height)];
-//    [self.view addSubview:calendarView];
-//    [calendarView reloadData];
-//    [calendarView dayWithYear:2017 withMonth:8 dataArray:nil];
+    [self.tableView registerClass:[WYWLineTableViewCell class] forCellReuseIdentifier:NSStringFromClass([WYWLineTableViewCell class])];
     
-    QMClassCalendarView *classCalendarView =[[QMClassCalendarView alloc]initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, 50)];
-    [self.view addSubview:classCalendarView];
-    [classCalendarView reloadData];
-    [classCalendarView dayWithYear:2017 withMonth:8 dataArray:nil];
-   
+    [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([ClubNewClassTableCell class]) bundle:[NSBundle mainBundle]] forCellReuseIdentifier:NSStringFromClass([ClubNewClassTableCell class])];
+    [self.viewModel layerUI];
 }
+
+#pragma mark -UITableViewDataSource
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return [self.viewModel numberOfRows];
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    XXCellModel * cellModel =[self.viewModel cellModelForRowAtIndexPath:indexPath];
+    UITableViewCell * cell =[tableView dequeueReusableCellWithIdentifier:cellModel.identifier];
+    [cell xx_configCellWithEntity:cellModel];
+    return cell;
+}
+
+#pragma mark -UITableViewDelegate
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    XXCellModel * cellModel =[self.viewModel cellModelForRowAtIndexPath:indexPath];
+    return cellModel.height;
+}
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+}
+
+#pragma mark -setter or getter
+-(UITableView *)tableView{
+    
+    if (!_tableView) {
+        _tableView =[[UITableView alloc]initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height-40) style:UITableViewStylePlain];
+        _tableView.delegate=self;
+        _tableView.dataSource =self;
+        _tableView.autoresizingMask =UIViewAutoresizingFlexibleHeight|UIViewAutoresizingFlexibleWidth;
+        _tableView.backgroundColor =[UIColor controllerBackgroundColor];
+        _tableView.separatorStyle =UITableViewCellSeparatorStyleNone;
+        _tableView.tableFooterView=[UIView new];
+        [self.view addSubview:_tableView];
+    }
+    return _tableView;
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

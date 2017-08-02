@@ -24,9 +24,8 @@
 
 -(void)layerUI{
     
-    XXCellModel *bannerCellModel = [XXCellModel instantiationWithIdentifier:@"HomeBannerTableViewCell" height:160 dataSource:nil action:nil];
-    [self.dataSource addObject:bannerCellModel];
-    
+    XXCellModel *newClassCellModel = [XXCellModel instantiationWithIdentifier:@"ClubNewClassTableCell" height:80 dataSource:nil action:nil];
+    [self.dataSource addObject:newClassCellModel];
     //线条
     XXCellModel *lineCellModel = [XXCellModel instantiationWithIdentifier:@"WYWLineTableViewCell" height:1 dataSource:nil action:nil];
     [self.dataSource addObject:lineCellModel];
