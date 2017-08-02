@@ -9,6 +9,7 @@
 #import "RankingCollectionView.h"
 #import <Masonry.h>
 #import "RankingCollectionViewCell.h"
+#import "UIImageView+Load.h"
 
 @interface RankingCollectionView ()<UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
 
@@ -30,9 +31,9 @@
         self.count =0;
         UICollectionViewFlowLayout *flowLayout = [[UICollectionViewFlowLayout alloc] init];
         flowLayout.scrollDirection =UICollectionViewScrollDirectionHorizontal;
-        flowLayout.minimumLineSpacing = 5;
-        flowLayout.minimumInteritemSpacing = 5;
-        self.collectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0, 5, 0, 5) collectionViewLayout:flowLayout];
+        flowLayout.minimumLineSpacing = 20;
+        flowLayout.minimumInteritemSpacing = 20;
+        self.collectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(10, 20, 10, 10) collectionViewLayout:flowLayout];
         self.collectionView.backgroundColor =[UIColor whiteColor];
         [self addSubview:self.collectionView];
         [self.collectionView mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -73,13 +74,14 @@
 }
 
 - (UIEdgeInsets)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout insetForSectionAtIndex:(NSInteger)section{
-    return UIEdgeInsetsMake(0, 5, 0, 5);
+    return UIEdgeInsetsMake(10, 20, 10, 10);
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
 //    IntelligentModel * intelligentModel =self.dataSource[indexPath.row];
     RankingCollectionViewCell * cell =[collectionView dequeueReusableCellWithReuseIdentifier:NSStringFromClass([RankingCollectionViewCell class]) forIndexPath:indexPath];
-//    cell.intelligentModel =intelligentModel;
+    [cell.headImageView xx_setImageWithURLStr:@"http://www.feizl.com/upload2007/2014_08/14081117427587.jpg" placeholder:nil];
+    cell.nameLabel.text =@"诸葛亮";
     return cell;
 }
 

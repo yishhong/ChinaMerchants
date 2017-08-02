@@ -45,6 +45,12 @@
 		92C9A7B51F308758007938C1 /* ClubVideoTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9A7B31F308758007938C1 /* ClubVideoTableCell.m */; };
 		92C9A7B61F308758007938C1 /* ClubVideoTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92C9A7B41F308758007938C1 /* ClubVideoTableCell.xib */; };
 		92C9A7BA1F308A9F007938C1 /* UIImageView+Load.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9A7B91F308A9F007938C1 /* UIImageView+Load.m */; };
+		92C9A7BE1F3169E2007938C1 /* QMCalendarFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9A7BD1F3169E2007938C1 /* QMCalendarFunction.m */; };
+		92C9A7C11F3171CF007938C1 /* QMCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9A7C01F3171CF007938C1 /* QMCalendarView.m */; };
+		92C9A7C41F317357007938C1 /* QMCalendarDayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9A7C31F317357007938C1 /* QMCalendarDayCell.m */; };
+		92C9A7C71F31A686007938C1 /* XXAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9A7C61F31A686007938C1 /* XXAPI.m */; };
+		92C9A7CA1F31A727007938C1 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9A7C91F31A727007938C1 /* Utils.m */; };
+		92C9A7CD1F31C72D007938C1 /* QMClassCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9A7CC1F31C72D007938C1 /* QMClassCalendarView.m */; };
 		92FD43561F300EBF005182CB /* EMChatManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FD434C1F300EBF005182CB /* EMChatManager.m */; };
 		92FD435D1F301272005182CB /* StorageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FD435A1F301272005182CB /* StorageManager.m */; };
 		92FD435E1F301272005182CB /* UserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FD435C1F301272005182CB /* UserManager.m */; };
@@ -173,6 +179,18 @@
 		92C9A7B41F308758007938C1 /* ClubVideoTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClubVideoTableCell.xib; sourceTree = "<group>"; };
 		92C9A7B81F308A9F007938C1 /* UIImageView+Load.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Load.h"; sourceTree = "<group>"; };
 		92C9A7B91F308A9F007938C1 /* UIImageView+Load.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Load.m"; sourceTree = "<group>"; };
+		92C9A7BC1F3169E2007938C1 /* QMCalendarFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMCalendarFunction.h; sourceTree = "<group>"; };
+		92C9A7BD1F3169E2007938C1 /* QMCalendarFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMCalendarFunction.m; sourceTree = "<group>"; };
+		92C9A7BF1F3171CF007938C1 /* QMCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMCalendarView.h; sourceTree = "<group>"; };
+		92C9A7C01F3171CF007938C1 /* QMCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMCalendarView.m; sourceTree = "<group>"; };
+		92C9A7C21F317357007938C1 /* QMCalendarDayCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMCalendarDayCell.h; sourceTree = "<group>"; };
+		92C9A7C31F317357007938C1 /* QMCalendarDayCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMCalendarDayCell.m; sourceTree = "<group>"; };
+		92C9A7C51F31A686007938C1 /* XXAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXAPI.h; sourceTree = "<group>"; };
+		92C9A7C61F31A686007938C1 /* XXAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXAPI.m; sourceTree = "<group>"; };
+		92C9A7C81F31A727007938C1 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		92C9A7C91F31A727007938C1 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		92C9A7CB1F31C72D007938C1 /* QMClassCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMClassCalendarView.h; sourceTree = "<group>"; };
+		92C9A7CC1F31C72D007938C1 /* QMClassCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMClassCalendarView.m; sourceTree = "<group>"; };
 		92FD434B1F300EBF005182CB /* EMChatManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMChatManager.h; sourceTree = "<group>"; };
 		92FD434C1F300EBF005182CB /* EMChatManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMChatManager.m; sourceTree = "<group>"; };
 		92FD43591F301272005182CB /* StorageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StorageManager.h; sourceTree = "<group>"; };
@@ -381,6 +399,10 @@
 				92FD436A1F3013E3005182CB /* WorkAPI */,
 				92FD436C1F3013E3005182CB /* ClubAPI */,
 				92FD436E1F3013E3005182CB /* UserAPI */,
+				92C9A7C51F31A686007938C1 /* XXAPI.h */,
+				92C9A7C61F31A686007938C1 /* XXAPI.m */,
+				92C9A7C81F31A727007938C1 /* Utils.h */,
+				92C9A7C91F31A727007938C1 /* Utils.m */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -566,6 +588,21 @@
 			path = UIImageView;
 			sourceTree = "<group>";
 		};
+		92C9A7BB1F3169A9007938C1 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				92C9A7BC1F3169E2007938C1 /* QMCalendarFunction.h */,
+				92C9A7BD1F3169E2007938C1 /* QMCalendarFunction.m */,
+				92C9A7BF1F3171CF007938C1 /* QMCalendarView.h */,
+				92C9A7C01F3171CF007938C1 /* QMCalendarView.m */,
+				92C9A7CB1F31C72D007938C1 /* QMClassCalendarView.h */,
+				92C9A7CC1F31C72D007938C1 /* QMClassCalendarView.m */,
+				92C9A7C21F317357007938C1 /* QMCalendarDayCell.h */,
+				92C9A7C31F317357007938C1 /* QMCalendarDayCell.m */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
 		92FD43371F300EBE005182CB /* EaseChat */ = {
 			isa = PBXGroup;
 			children = (
@@ -714,6 +751,7 @@
 		92FD43731F3014EB005182CB /* CHKit */ = {
 			isa = PBXGroup;
 			children = (
+				92C9A7BB1F3169A9007938C1 /* Calendar */,
 				92FD43D61F306E24005182CB /* CAPSPageMenu */,
 				92FD43BF1F306B85005182CB /* XXCellModel */,
 				92FD437C1F301721005182CB /* Category */,
@@ -1098,14 +1136,17 @@
 				922F03381F2F16D90007D8D2 /* StudyController.m in Sources */,
 				92FD43801F301721005182CB /* NSError+Reason.m in Sources */,
 				92FD43BD1F306B25005182CB /* HomeBannerTableViewCell.m in Sources */,
+				92C9A7CA1F31A727007938C1 /* Utils.m in Sources */,
 				92FD43911F301CB0005182CB /* RegisterController.m in Sources */,
 				92FD43721F30140F005182CB /* UserInfoModel.m in Sources */,
 				92C9A79E1F308211007938C1 /* RankingImageViewTableViewCell.m in Sources */,
+				92C9A7C41F317357007938C1 /* QMCalendarDayCell.m in Sources */,
 				92FD43B21F30252A005182CB /* UIResponder+Empty.m in Sources */,
 				92FD43B01F30252A005182CB /* NSString+Size.m in Sources */,
 				92FD43AE1F30252A005182CB /* MBProgressHUD+Loading.m in Sources */,
 				922F01191F2EDDDC0007D8D2 /* BaseTabBarController.m in Sources */,
 				92FD43DC1F307080005182CB /* BannerModel.m in Sources */,
+				92C9A7CD1F31C72D007938C1 /* QMClassCalendarView.m in Sources */,
 				92FD43B11F30252A005182CB /* UIColor+HUE.m in Sources */,
 				92FD438C1F301C95005182CB /* LoginViewModel.m in Sources */,
 				922F03321F2F16CC0007D8D2 /* MineController.m in Sources */,
@@ -1114,6 +1155,7 @@
 				92FD43B91F30605C005182CB /* UINavigationBar+Custom.m in Sources */,
 				92FD43AF1F30252A005182CB /* NSString+Others.m in Sources */,
 				92C9A7951F307B3F007938C1 /* ClubAddressTableCell.m in Sources */,
+				92C9A7BE1F3169E2007938C1 /* QMCalendarFunction.m in Sources */,
 				92FD43B81F30605C005182CB /* UINavigationBar+Awesome.m in Sources */,
 				922F032D1F2F16BC0007D8D2 /* WorkViewModel.m in Sources */,
 				92FD43E01F307691005182CB /* ClubNameTableCell.m in Sources */,
@@ -1137,6 +1179,7 @@
 				92FD43CF1F306D54005182CB /* ClubInformationViewModel.m in Sources */,
 				92FD43C51F306B85005182CB /* UITableViewCell+DataSource.m in Sources */,
 				92FD438B1F301C95005182CB /* LoginController.m in Sources */,
+				92C9A7C71F31A686007938C1 /* XXAPI.m in Sources */,
 				92FD43561F300EBF005182CB /* EMChatManager.m in Sources */,
 				92FD43D41F306D8B005182CB /* ClubSynopsisController.m in Sources */,
 				922F03331F2F16CC0007D8D2 /* MineViewModel.m in Sources */,
@@ -1150,6 +1193,7 @@
 				92FD43AD1F30252A005182CB /* NSMutableAttributedString+AttributedString.m in Sources */,
 				92FD43C91F306BE1005182CB /* WYWLineTableViewCell.m in Sources */,
 				922F032C1F2F16BC0007D8D2 /* WorkController.m in Sources */,
+				92C9A7C11F3171CF007938C1 /* QMCalendarView.m in Sources */,
 				922F03271F2F16AB0007D8D2 /* ClubViewModel.m in Sources */,
 				922F03391F2F16D90007D8D2 /* StudyViewModel.m in Sources */,
 				92C9A7A51F308274007938C1 /* RankingCollectionView.m in Sources */,

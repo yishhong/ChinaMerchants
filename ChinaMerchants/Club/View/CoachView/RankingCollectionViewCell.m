@@ -19,17 +19,4 @@
     self.nameLabel.textColor =[UIColor VPTitleColor];
 }
 
-//-(void)setIntelligentModel:(IntelligentModel *)intelligentModel{
-//
-//    _intelligentModel =intelligentModel;
-//    [self.headImageView xx_setImageWithURLStr:intelligentModel.HEAD_URL placeholder:[UIImage imageNamed:@"The-defaulf_head"]];
-//    self.nameLabel.text =intelligentModel.USER_NAME;
-//    if (intelligentModel.USER_STATUS==1) {
-//        self.vipImageView.hidden =NO;
-//    }else{
-//    
-//        self.vipImageView.hidden =YES;
-//    }
-//}
-
 @end
