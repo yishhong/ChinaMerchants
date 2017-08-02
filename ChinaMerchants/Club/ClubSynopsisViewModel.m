@@ -64,6 +64,7 @@
     
     XXCellModel *classImageCellModel = [XXCellModel instantiationWithIdentifier:@"ClubClassImageTableCell" height:260 dataSource:nil action:nil];
     [self.dataSource addObject:classImageCellModel];
+    [self.dataSource addObject:lineCellModel];
     
     //俱乐部视频
     XXCellModel *videoSectionCellModel = [XXCellModel instantiationWithIdentifier:@"ClubSectionTableCell" height:50 dataSource:@"俱乐部视频" action:nil];

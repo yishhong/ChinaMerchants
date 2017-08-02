@@ -66,7 +66,7 @@
     _pageMenu =[[CAPSPageMenu alloc]initWithViewControllers:viewControllerArray frame:CGRectMake(0, 0, self.view.bounds.size.width,self.view.bounds.size.height) options:parameters];
     _pageMenu.delegate=self;
     [self.view addSubview:_pageMenu.view];
-    [self addChildViewController:_pageMenu];
+//    [self addChildViewController:_pageMenu];
 }
 
 - (void)didReceiveMemoryWarning {

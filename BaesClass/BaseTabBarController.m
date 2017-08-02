@@ -7,6 +7,7 @@
 //
 
 #import "BaseTabBarController.h"
+#import "UIColor+HUE.h"
 
 @interface BaseTabBarController ()
 
@@ -16,7 +17,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [self.tabBar setTintColor:[UIColor tabTintColor]];
+    [self.tabBar setBarTintColor:[UIColor tabBarTintColor]];
 }
 
 - (void)didReceiveMemoryWarning {

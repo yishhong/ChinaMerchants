@@ -57,6 +57,10 @@
 		92C9A7D91F31D1DE007938C1 /* StudyClassSummaryViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9A7D71F31D1DE007938C1 /* StudyClassSummaryViewModel.m */; };
 		92C9A7DD1F31D2DB007938C1 /* ClubNewClassTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9A7DB1F31D2DB007938C1 /* ClubNewClassTableCell.m */; };
 		92C9A7DE1F31D2DB007938C1 /* ClubNewClassTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92C9A7DC1F31D2DB007938C1 /* ClubNewClassTableCell.xib */; };
+		92C9A7E71F31D9D7007938C1 /* AppDelegate+JPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9A7E01F31D9D7007938C1 /* AppDelegate+JPush.m */; };
+		92C9A7E81F31D9D7007938C1 /* AppDelegate+Keyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9A7E21F31D9D7007938C1 /* AppDelegate+Keyboard.m */; };
+		92C9A7E91F31D9D7007938C1 /* AppDelegate+Notification.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9A7E41F31D9D7007938C1 /* AppDelegate+Notification.m */; };
+		92C9A7EA1F31D9D7007938C1 /* AppDelegate+UMeng.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9A7E61F31D9D7007938C1 /* AppDelegate+UMeng.m */; };
 		92FD43561F300EBF005182CB /* EMChatManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FD434C1F300EBF005182CB /* EMChatManager.m */; };
 		92FD435D1F301272005182CB /* StorageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FD435A1F301272005182CB /* StorageManager.m */; };
 		92FD435E1F301272005182CB /* UserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FD435C1F301272005182CB /* UserManager.m */; };
@@ -208,6 +212,14 @@
 		92C9A7DA1F31D2DB007938C1 /* ClubNewClassTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClubNewClassTableCell.h; sourceTree = "<group>"; };
 		92C9A7DB1F31D2DB007938C1 /* ClubNewClassTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClubNewClassTableCell.m; sourceTree = "<group>"; };
 		92C9A7DC1F31D2DB007938C1 /* ClubNewClassTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClubNewClassTableCell.xib; sourceTree = "<group>"; };
+		92C9A7DF1F31D9D7007938C1 /* AppDelegate+JPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+JPush.h"; sourceTree = "<group>"; };
+		92C9A7E01F31D9D7007938C1 /* AppDelegate+JPush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+JPush.m"; sourceTree = "<group>"; };
+		92C9A7E11F31D9D7007938C1 /* AppDelegate+Keyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Keyboard.h"; sourceTree = "<group>"; };
+		92C9A7E21F31D9D7007938C1 /* AppDelegate+Keyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Keyboard.m"; sourceTree = "<group>"; };
+		92C9A7E31F31D9D7007938C1 /* AppDelegate+Notification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Notification.h"; sourceTree = "<group>"; };
+		92C9A7E41F31D9D7007938C1 /* AppDelegate+Notification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Notification.m"; sourceTree = "<group>"; };
+		92C9A7E51F31D9D7007938C1 /* AppDelegate+UMeng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+UMeng.h"; sourceTree = "<group>"; };
+		92C9A7E61F31D9D7007938C1 /* AppDelegate+UMeng.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+UMeng.m"; sourceTree = "<group>"; };
 		92FD434B1F300EBF005182CB /* EMChatManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMChatManager.h; sourceTree = "<group>"; };
 		92FD434C1F300EBF005182CB /* EMChatManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMChatManager.m; sourceTree = "<group>"; };
 		92FD43591F301272005182CB /* StorageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StorageManager.h; sourceTree = "<group>"; };
@@ -585,10 +597,18 @@
 		922F03461F2F17710007D8D2 /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
-				922F03471F2F17710007D8D2 /* AppDelegate.h */,
-				922F03481F2F17710007D8D2 /* AppDelegate.m */,
+				92C9A7DF1F31D9D7007938C1 /* AppDelegate+JPush.h */,
+				92C9A7E01F31D9D7007938C1 /* AppDelegate+JPush.m */,
+				92C9A7E11F31D9D7007938C1 /* AppDelegate+Keyboard.h */,
+				92C9A7E21F31D9D7007938C1 /* AppDelegate+Keyboard.m */,
+				92C9A7E31F31D9D7007938C1 /* AppDelegate+Notification.h */,
+				92C9A7E41F31D9D7007938C1 /* AppDelegate+Notification.m */,
+				92C9A7E51F31D9D7007938C1 /* AppDelegate+UMeng.h */,
+				92C9A7E61F31D9D7007938C1 /* AppDelegate+UMeng.m */,
 				922F034A1F2F18450007D8D2 /* AppDelegate+MainUI.h */,
 				922F034B1F2F18450007D8D2 /* AppDelegate+MainUI.m */,
+				922F03471F2F17710007D8D2 /* AppDelegate.h */,
+				922F03481F2F17710007D8D2 /* AppDelegate.m */,
 				922F034D1F2F19010007D8D2 /* RootController.h */,
 				922F034E1F2F19010007D8D2 /* RootController.m */,
 			);
@@ -1169,6 +1189,7 @@
 				92C9A7CA1F31A727007938C1 /* Utils.m in Sources */,
 				92FD43911F301CB0005182CB /* RegisterController.m in Sources */,
 				92FD43721F30140F005182CB /* UserInfoModel.m in Sources */,
+				92C9A7E91F31D9D7007938C1 /* AppDelegate+Notification.m in Sources */,
 				92C9A79E1F308211007938C1 /* RankingImageViewTableViewCell.m in Sources */,
 				92C9A7C41F317357007938C1 /* QMCalendarDayCell.m in Sources */,
 				92FD43B21F30252A005182CB /* UIResponder+Empty.m in Sources */,
@@ -1177,9 +1198,11 @@
 				922F01191F2EDDDC0007D8D2 /* BaseTabBarController.m in Sources */,
 				92FD43DC1F307080005182CB /* BannerModel.m in Sources */,
 				92C9A7CD1F31C72D007938C1 /* QMClassCalendarView.m in Sources */,
+				92C9A7E71F31D9D7007938C1 /* AppDelegate+JPush.m in Sources */,
 				92FD43B11F30252A005182CB /* UIColor+HUE.m in Sources */,
 				92FD438C1F301C95005182CB /* LoginViewModel.m in Sources */,
 				922F03321F2F16CC0007D8D2 /* MineController.m in Sources */,
+				92C9A7E81F31D9D7007938C1 /* AppDelegate+Keyboard.m in Sources */,
 				92FD43981F301CC1005182CB /* AuthCodeViewModel.m in Sources */,
 				92FD43D91F306E24005182CB /* CAPSPageMenu.m in Sources */,
 				92FD43B91F30605C005182CB /* UINavigationBar+Custom.m in Sources */,
@@ -1195,6 +1218,7 @@
 				92FD43771F3014EB005182CB /* QMStorageManage.m in Sources */,
 				922F011C1F2EE0230007D8D2 /* BaseNavigationController.m in Sources */,
 				922F034F1F2F19010007D8D2 /* RootController.m in Sources */,
+				92C9A7EA1F31D9D7007938C1 /* AppDelegate+UMeng.m in Sources */,
 				92FD43971F301CC1005182CB /* AuthCodeController.m in Sources */,
 				922F01161F2EDDA60007D8D2 /* BaseViewController.m in Sources */,
 				922F034C1F2F18450007D8D2 /* AppDelegate+MainUI.m in Sources */,
