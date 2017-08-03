@@ -19,6 +19,8 @@ target 'ChinaMerchants' do
     pod 'BaiduMapKit'
     #图片下载管理
     pod 'SDWebImage'
+    #选择图片
+    pod 'CTAssetsPickerController'
     #网络加载
     pod 'AFNetworking'
     #JSON转换Model库

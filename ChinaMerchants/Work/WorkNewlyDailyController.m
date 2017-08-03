@@ -1,55 +1,34 @@
 //
-//  DynamicController.mController
+//  WorkNewlyDailyController.mController
 //  ChinaMerchants
 //
-//  Created by 易述宏 on 2017/7/31.
+//  Created by 易述宏 on 2017/8/3.
 //  Copyright © 2017年 iOS 易述宏. All rights reserved.
 //
 
-#import "DynamicController.h"
-#import "DynamicViewModel.h"
+#import "WorkNewlyDailyController.h"
+#import "WorkNewlyDailyViewModel.h"
 #import "UIColor+HUE.h"
-#import "PublishDynamicController.h"
 
-@interface DynamicController ()<UITableViewDelegate,UITableViewDataSource>
+@interface WorkNewlyDailyController ()<UITableViewDataSource,UITableViewDelegate>
 
-@property (nonatomic, strong) DynamicViewModel *viewModel;
+@property (nonatomic, strong) WorkNewlyDailyViewModel *viewModel;
 
 @property (nonatomic, strong) UITableView * tableView;
 
-@property (nonatomic, strong) UIBarButtonItem * publishButtonItem;
-
 @end
 
-@implementation DynamicController
+@implementation WorkNewlyDailyController
 
 + (instancetype)instantiation{
-    return [[DynamicController alloc]init];
-}
 
-- (instancetype)init
-{
-    self = [super init];
-    if (self) {
-        self.title =@"动态";
-    }
-    return self;
+    return [[WorkNewlyDailyController alloc]init];
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.viewModel = [[DynamicViewModel alloc] init];
-    self.navigationItem.rightBarButtonItem=self.publishButtonItem;
-
-}
-
-#pragma mark -respond
--(void)publishAction{
-
-    PublishDynamicController * publishDynamicController =[PublishDynamicController instantiation];
-    publishDynamicController.title =@"发布动态";
-    publishDynamicController.hidesBottomBarWhenPushed =YES;
-    [self.navigationController pushViewController:publishDynamicController animated:YES];
+    self.viewModel = [[WorkNewlyDailyViewModel alloc] init];
+    self.title =@"新增日志";
 }
 
 #pragma mark -UITableViewDataSource
@@ -88,14 +67,6 @@
         [self.view addSubview:_tableView];
     }
     return _tableView;
-}
-
--(UIBarButtonItem *)publishButtonItem{
-
-    if (!_publishButtonItem) {
-        _publishButtonItem =[[UIBarButtonItem alloc]initWithTitle:@"发布" style:UIBarButtonItemStylePlain target:self action:@selector(publishAction)];
-    }
-    return _publishButtonItem;
 }
 
 - (void)didReceiveMemoryWarning {

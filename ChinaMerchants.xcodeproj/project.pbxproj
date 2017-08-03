@@ -7,6 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		920BB44A1F32B3400045052E /* PublishDynamicController.m in Sources */ = {isa = PBXBuildFile; fileRef = 920BB4471F32B3400045052E /* PublishDynamicController.m */; };
+		920BB44B1F32B3400045052E /* PublishDynamicViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 920BB4491F32B3400045052E /* PublishDynamicViewModel.m */; };
+		920BB44F1F32B4B30045052E /* PublishImageTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 920BB44D1F32B4B30045052E /* PublishImageTableCell.m */; };
+		920BB4501F32B4B30045052E /* PublishImageTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 920BB44E1F32B4B30045052E /* PublishImageTableCell.xib */; };
+		920BB4551F32BC0D0045052E /* WorkNewlyDailyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 920BB4521F32BC0D0045052E /* WorkNewlyDailyController.m */; };
+		920BB4561F32BC0D0045052E /* WorkNewlyDailyViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 920BB4541F32BC0D0045052E /* WorkNewlyDailyViewModel.m */; };
+		920BB45A1F32BDC80045052E /* PublishDailyTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 920BB4581F32BDC80045052E /* PublishDailyTableCell.m */; };
+		920BB45B1F32BDC80045052E /* PublishDailyTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 920BB4591F32BDC80045052E /* PublishDailyTableCell.xib */; };
+		920BB45F1F32BE450045052E /* PublishConentTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 920BB45D1F32BE450045052E /* PublishConentTableCell.m */; };
+		920BB4601F32BE450045052E /* PublishConentTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 920BB45E1F32BE450045052E /* PublishConentTableCell.xib */; };
+		920BB4691F32BF660045052E /* CTAssetsPickerController+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 920BB4641F32BF660045052E /* CTAssetsPickerController+Custom.m */; };
+		920BB46A1F32BF660045052E /* QMAssetsPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 920BB4661F32BF660045052E /* QMAssetsPicker.m */; };
+		920BB46B1F32BF660045052E /* QMImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 920BB4681F32BF660045052E /* QMImagePicker.m */; };
+		920BB4731F32BFDB0045052E /* PhotoPreview.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 920BB46D1F32BFDB0045052E /* PhotoPreview.storyboard */; };
+		920BB4741F32BFDB0045052E /* QMPhotoCollectionPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 920BB46F1F32BFDB0045052E /* QMPhotoCollectionPreviewController.m */; };
+		920BB4751F32BFDB0045052E /* QMPhotoCollectionPreviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 920BB4721F32BFDB0045052E /* QMPhotoCollectionPreviewCell.m */; };
+		920BB47D1F32C1550045052E /* UIAlertController+Camera.m in Sources */ = {isa = PBXBuildFile; fileRef = 920BB4781F32C1550045052E /* UIAlertController+Camera.m */; };
+		920BB47E1F32C1550045052E /* UIAlertController+MapNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 920BB47A1F32C1550045052E /* UIAlertController+MapNavigation.m */; };
+		920BB47F1F32C1550045052E /* UIAlertController+Order.m in Sources */ = {isa = PBXBuildFile; fileRef = 920BB47C1F32C1550045052E /* UIAlertController+Order.m */; };
+		920BB4831F32C8570045052E /* PublishImageCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 920BB4811F32C8570045052E /* PublishImageCollectionCell.m */; };
+		920BB4841F32C8570045052E /* PublishImageCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 920BB4821F32C8570045052E /* PublishImageCollectionCell.xib */; };
 		922F00801F2EDC200007D8D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 922F007F1F2EDC200007D8D2 /* main.m */; };
 		922F00861F2EDC200007D8D2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 922F00851F2EDC200007D8D2 /* ViewController.m */; };
 		922F00891F2EDC200007D8D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 922F00871F2EDC200007D8D2 /* Main.storyboard */; };
@@ -118,6 +139,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		920BB4461F32B3400045052E /* PublishDynamicController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublishDynamicController.h; sourceTree = "<group>"; };
+		920BB4471F32B3400045052E /* PublishDynamicController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublishDynamicController.m; sourceTree = "<group>"; };
+		920BB4481F32B3400045052E /* PublishDynamicViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublishDynamicViewModel.h; sourceTree = "<group>"; };
+		920BB4491F32B3400045052E /* PublishDynamicViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublishDynamicViewModel.m; sourceTree = "<group>"; };
+		920BB44C1F32B4B30045052E /* PublishImageTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublishImageTableCell.h; sourceTree = "<group>"; };
+		920BB44D1F32B4B30045052E /* PublishImageTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublishImageTableCell.m; sourceTree = "<group>"; };
+		920BB44E1F32B4B30045052E /* PublishImageTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PublishImageTableCell.xib; sourceTree = "<group>"; };
+		920BB4511F32BC0D0045052E /* WorkNewlyDailyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkNewlyDailyController.h; sourceTree = "<group>"; };
+		920BB4521F32BC0D0045052E /* WorkNewlyDailyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkNewlyDailyController.m; sourceTree = "<group>"; };
+		920BB4531F32BC0D0045052E /* WorkNewlyDailyViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkNewlyDailyViewModel.h; sourceTree = "<group>"; };
+		920BB4541F32BC0D0045052E /* WorkNewlyDailyViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkNewlyDailyViewModel.m; sourceTree = "<group>"; };
+		920BB4571F32BDC80045052E /* PublishDailyTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublishDailyTableCell.h; sourceTree = "<group>"; };
+		920BB4581F32BDC80045052E /* PublishDailyTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublishDailyTableCell.m; sourceTree = "<group>"; };
+		920BB4591F32BDC80045052E /* PublishDailyTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PublishDailyTableCell.xib; sourceTree = "<group>"; };
+		920BB45C1F32BE450045052E /* PublishConentTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublishConentTableCell.h; sourceTree = "<group>"; };
+		920BB45D1F32BE450045052E /* PublishConentTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublishConentTableCell.m; sourceTree = "<group>"; };
+		920BB45E1F32BE450045052E /* PublishConentTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PublishConentTableCell.xib; sourceTree = "<group>"; };
+		920BB4631F32BF660045052E /* CTAssetsPickerController+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTAssetsPickerController+Custom.h"; sourceTree = "<group>"; };
+		920BB4641F32BF660045052E /* CTAssetsPickerController+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CTAssetsPickerController+Custom.m"; sourceTree = "<group>"; };
+		920BB4651F32BF660045052E /* QMAssetsPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMAssetsPicker.h; sourceTree = "<group>"; };
+		920BB4661F32BF660045052E /* QMAssetsPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMAssetsPicker.m; sourceTree = "<group>"; };
+		920BB4671F32BF660045052E /* QMImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMImagePicker.h; sourceTree = "<group>"; };
+		920BB4681F32BF660045052E /* QMImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMImagePicker.m; sourceTree = "<group>"; };
+		920BB46D1F32BFDB0045052E /* PhotoPreview.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PhotoPreview.storyboard; sourceTree = "<group>"; };
+		920BB46E1F32BFDB0045052E /* QMPhotoCollectionPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMPhotoCollectionPreviewController.h; sourceTree = "<group>"; };
+		920BB46F1F32BFDB0045052E /* QMPhotoCollectionPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMPhotoCollectionPreviewController.m; sourceTree = "<group>"; };
+		920BB4711F32BFDB0045052E /* QMPhotoCollectionPreviewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMPhotoCollectionPreviewCell.h; sourceTree = "<group>"; };
+		920BB4721F32BFDB0045052E /* QMPhotoCollectionPreviewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMPhotoCollectionPreviewCell.m; sourceTree = "<group>"; };
+		920BB4771F32C1550045052E /* UIAlertController+Camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Camera.h"; sourceTree = "<group>"; };
+		920BB4781F32C1550045052E /* UIAlertController+Camera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Camera.m"; sourceTree = "<group>"; };
+		920BB4791F32C1550045052E /* UIAlertController+MapNavigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+MapNavigation.h"; sourceTree = "<group>"; };
+		920BB47A1F32C1550045052E /* UIAlertController+MapNavigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+MapNavigation.m"; sourceTree = "<group>"; };
+		920BB47B1F32C1550045052E /* UIAlertController+Order.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Order.h"; sourceTree = "<group>"; };
+		920BB47C1F32C1550045052E /* UIAlertController+Order.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Order.m"; sourceTree = "<group>"; };
+		920BB4801F32C8570045052E /* PublishImageCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublishImageCollectionCell.h; sourceTree = "<group>"; };
+		920BB4811F32C8570045052E /* PublishImageCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublishImageCollectionCell.m; sourceTree = "<group>"; };
+		920BB4821F32C8570045052E /* PublishImageCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PublishImageCollectionCell.xib; sourceTree = "<group>"; };
 		922F007B1F2EDC200007D8D2 /* ChinaMerchants.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChinaMerchants.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		922F007F1F2EDC200007D8D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		922F00841F2EDC200007D8D2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -328,6 +386,61 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		920BB4611F32BF660045052E /* QMPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				920BB46C1F32BFDB0045052E /* PhotoCollectionPreview */,
+				920BB4621F32BF660045052E /* CTAssetsPickerController */,
+				920BB4671F32BF660045052E /* QMImagePicker.h */,
+				920BB4681F32BF660045052E /* QMImagePicker.m */,
+			);
+			path = QMPhoto;
+			sourceTree = "<group>";
+		};
+		920BB4621F32BF660045052E /* CTAssetsPickerController */ = {
+			isa = PBXGroup;
+			children = (
+				920BB4631F32BF660045052E /* CTAssetsPickerController+Custom.h */,
+				920BB4641F32BF660045052E /* CTAssetsPickerController+Custom.m */,
+				920BB4651F32BF660045052E /* QMAssetsPicker.h */,
+				920BB4661F32BF660045052E /* QMAssetsPicker.m */,
+			);
+			path = CTAssetsPickerController;
+			sourceTree = "<group>";
+		};
+		920BB46C1F32BFDB0045052E /* PhotoCollectionPreview */ = {
+			isa = PBXGroup;
+			children = (
+				920BB46D1F32BFDB0045052E /* PhotoPreview.storyboard */,
+				920BB46E1F32BFDB0045052E /* QMPhotoCollectionPreviewController.h */,
+				920BB46F1F32BFDB0045052E /* QMPhotoCollectionPreviewController.m */,
+				920BB4701F32BFDB0045052E /* View */,
+			);
+			path = PhotoCollectionPreview;
+			sourceTree = "<group>";
+		};
+		920BB4701F32BFDB0045052E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				920BB4711F32BFDB0045052E /* QMPhotoCollectionPreviewCell.h */,
+				920BB4721F32BFDB0045052E /* QMPhotoCollectionPreviewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		920BB4761F32C1540045052E /* UIAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				920BB4771F32C1550045052E /* UIAlertController+Camera.h */,
+				920BB4781F32C1550045052E /* UIAlertController+Camera.m */,
+				920BB4791F32C1550045052E /* UIAlertController+MapNavigation.h */,
+				920BB47A1F32C1550045052E /* UIAlertController+MapNavigation.m */,
+				920BB47B1F32C1550045052E /* UIAlertController+Order.h */,
+				920BB47C1F32C1550045052E /* UIAlertController+Order.m */,
+			);
+			path = UIAlertController;
+			sourceTree = "<group>";
+		};
 		922F00721F2EDC200007D8D2 = {
 			isa = PBXGroup;
 			children = (
@@ -444,6 +557,10 @@
 				922F03291F2F16BC0007D8D2 /* WorkController.m */,
 				922F032A1F2F16BC0007D8D2 /* WorkViewModel.h */,
 				922F032B1F2F16BC0007D8D2 /* WorkViewModel.m */,
+				920BB4511F32BC0D0045052E /* WorkNewlyDailyController.h */,
+				920BB4521F32BC0D0045052E /* WorkNewlyDailyController.m */,
+				920BB4531F32BC0D0045052E /* WorkNewlyDailyViewModel.h */,
+				920BB4541F32BC0D0045052E /* WorkNewlyDailyViewModel.m */,
 			);
 			path = Work;
 			sourceTree = "<group>";
@@ -451,6 +568,9 @@
 		922F03171F2F16890007D8D2 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				920BB4571F32BDC80045052E /* PublishDailyTableCell.h */,
+				920BB4581F32BDC80045052E /* PublishDailyTableCell.m */,
+				920BB4591F32BDC80045052E /* PublishDailyTableCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -509,6 +629,10 @@
 				922F033B1F2F16EC0007D8D2 /* DynamicController.m */,
 				922F033C1F2F16EC0007D8D2 /* DynamicViewModel.h */,
 				922F033D1F2F16EC0007D8D2 /* DynamicViewModel.m */,
+				920BB4461F32B3400045052E /* PublishDynamicController.h */,
+				920BB4471F32B3400045052E /* PublishDynamicController.m */,
+				920BB4481F32B3400045052E /* PublishDynamicViewModel.h */,
+				920BB4491F32B3400045052E /* PublishDynamicViewModel.m */,
 			);
 			path = Dynamic;
 			sourceTree = "<group>";
@@ -516,6 +640,15 @@
 		922F031D1F2F16890007D8D2 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				920BB44C1F32B4B30045052E /* PublishImageTableCell.h */,
+				920BB44D1F32B4B30045052E /* PublishImageTableCell.m */,
+				920BB44E1F32B4B30045052E /* PublishImageTableCell.xib */,
+				920BB4801F32C8570045052E /* PublishImageCollectionCell.h */,
+				920BB4811F32C8570045052E /* PublishImageCollectionCell.m */,
+				920BB4821F32C8570045052E /* PublishImageCollectionCell.xib */,
+				920BB45C1F32BE450045052E /* PublishConentTableCell.h */,
+				920BB45D1F32BE450045052E /* PublishConentTableCell.m */,
+				920BB45E1F32BE450045052E /* PublishConentTableCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -671,6 +804,7 @@
 		92FD43571F30125F005182CB /* ChShare */ = {
 			isa = PBXGroup;
 			children = (
+				920BB4611F32BF660045052E /* QMPhoto */,
 				92FD43581F301272005182CB /* Storage */,
 				92FD435B1F301272005182CB /* UserManager.h */,
 				92FD435C1F301272005182CB /* UserManager.m */,
@@ -830,6 +964,7 @@
 		92FD437C1F301721005182CB /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				920BB4761F32C1540045052E /* UIAlertController */,
 				92C9A7B71F308A9F007938C1 /* UIImageView */,
 				92FD43B31F30605C005182CB /* UINavigationBar */,
 				92FD439C1F30252A005182CB /* AttributedString */,
@@ -1058,6 +1193,7 @@
 				TargetAttributes = {
 					922F007A1F2EDC200007D8D2 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ZZQ7P4EG34;
 						ProvisioningStyle = Automatic;
 					};
 					922F00931F2EDC200007D8D2 = {
@@ -1097,12 +1233,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				920BB45B1F32BDC80045052E /* PublishDailyTableCell.xib in Resources */,
+				920BB4601F32BE450045052E /* PublishConentTableCell.xib in Resources */,
+				920BB4501F32B4B30045052E /* PublishImageTableCell.xib in Resources */,
 				92C9A7A71F308274007938C1 /* RankingCollectionViewCell.xib in Resources */,
 				92C9A7B11F308597007938C1 /* ClubClassImageTableCell.xib in Resources */,
 				92C9A7DE1F31D2DB007938C1 /* ClubNewClassTableCell.xib in Resources */,
 				92C9A7961F307B3F007938C1 /* ClubAddressTableCell.xib in Resources */,
+				920BB4841F32C8570045052E /* PublishImageCollectionCell.xib in Resources */,
 				92FD43BE1F306B25005182CB /* HomeBannerTableViewCell.xib in Resources */,
 				92FD43E11F307691005182CB /* ClubNameTableCell.xib in Resources */,
+				920BB4731F32BFDB0045052E /* PhotoPreview.storyboard in Resources */,
 				92C9A79B1F307EBE007938C1 /* ClubCoachTableCell.xib in Resources */,
 				922F008E1F2EDC200007D8D2 /* LaunchScreen.storyboard in Resources */,
 				922F008B1F2EDC200007D8D2 /* Assets.xcassets in Resources */,
@@ -1183,12 +1324,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				922F03381F2F16D90007D8D2 /* StudyController.m in Sources */,
+				920BB4741F32BFDB0045052E /* QMPhotoCollectionPreviewController.m in Sources */,
 				92C9A7D21F31D0B3007938C1 /* StudySignRecordController.m in Sources */,
+				920BB4751F32BFDB0045052E /* QMPhotoCollectionPreviewCell.m in Sources */,
 				92FD43801F301721005182CB /* NSError+Reason.m in Sources */,
+				920BB4691F32BF660045052E /* CTAssetsPickerController+Custom.m in Sources */,
 				92FD43BD1F306B25005182CB /* HomeBannerTableViewCell.m in Sources */,
+				920BB44B1F32B3400045052E /* PublishDynamicViewModel.m in Sources */,
+				920BB4561F32BC0D0045052E /* WorkNewlyDailyViewModel.m in Sources */,
 				92C9A7CA1F31A727007938C1 /* Utils.m in Sources */,
 				92FD43911F301CB0005182CB /* RegisterController.m in Sources */,
 				92FD43721F30140F005182CB /* UserInfoModel.m in Sources */,
+				920BB46A1F32BF660045052E /* QMAssetsPicker.m in Sources */,
 				92C9A7E91F31D9D7007938C1 /* AppDelegate+Notification.m in Sources */,
 				92C9A79E1F308211007938C1 /* RankingImageViewTableViewCell.m in Sources */,
 				92C9A7C41F317357007938C1 /* QMCalendarDayCell.m in Sources */,
@@ -1201,6 +1348,7 @@
 				92C9A7E71F31D9D7007938C1 /* AppDelegate+JPush.m in Sources */,
 				92FD43B11F30252A005182CB /* UIColor+HUE.m in Sources */,
 				92FD438C1F301C95005182CB /* LoginViewModel.m in Sources */,
+				920BB45F1F32BE450045052E /* PublishConentTableCell.m in Sources */,
 				922F03321F2F16CC0007D8D2 /* MineController.m in Sources */,
 				92C9A7E81F31D9D7007938C1 /* AppDelegate+Keyboard.m in Sources */,
 				92FD43981F301CC1005182CB /* AuthCodeViewModel.m in Sources */,
@@ -1211,7 +1359,9 @@
 				92C9A7951F307B3F007938C1 /* ClubAddressTableCell.m in Sources */,
 				92C9A7BE1F3169E2007938C1 /* QMCalendarFunction.m in Sources */,
 				92FD43B81F30605C005182CB /* UINavigationBar+Awesome.m in Sources */,
+				920BB46B1F32BF660045052E /* QMImagePicker.m in Sources */,
 				922F032D1F2F16BC0007D8D2 /* WorkViewModel.m in Sources */,
+				920BB4831F32C8570045052E /* PublishImageCollectionCell.m in Sources */,
 				92FD43E01F307691005182CB /* ClubNameTableCell.m in Sources */,
 				922F00861F2EDC200007D8D2 /* ViewController.m in Sources */,
 				92C9A7A61F308274007938C1 /* RankingCollectionViewCell.m in Sources */,
@@ -1221,20 +1371,27 @@
 				92C9A7EA1F31D9D7007938C1 /* AppDelegate+UMeng.m in Sources */,
 				92FD43971F301CC1005182CB /* AuthCodeController.m in Sources */,
 				922F01161F2EDDA60007D8D2 /* BaseViewController.m in Sources */,
+				920BB44F1F32B4B30045052E /* PublishImageTableCell.m in Sources */,
 				922F034C1F2F18450007D8D2 /* AppDelegate+MainUI.m in Sources */,
 				92C9A7D91F31D1DE007938C1 /* StudyClassSummaryViewModel.m in Sources */,
 				922F03491F2F17710007D8D2 /* AppDelegate.m in Sources */,
+				920BB47D1F32C1550045052E /* UIAlertController+Camera.m in Sources */,
 				92FD43C61F306B85005182CB /* XXCellModel.m in Sources */,
 				92FD43921F301CB0005182CB /* RegisterViewModel.m in Sources */,
+				920BB47E1F32C1550045052E /* UIAlertController+MapNavigation.m in Sources */,
+				920BB4551F32BC0D0045052E /* WorkNewlyDailyController.m in Sources */,
 				922F033F1F2F16EC0007D8D2 /* DynamicViewModel.m in Sources */,
 				92FD43D51F306D8B005182CB /* ClubSynopsisViewModel.m in Sources */,
 				92C9A7B01F308597007938C1 /* ClubClassImageTableCell.m in Sources */,
+				920BB47F1F32C1550045052E /* UIAlertController+Order.m in Sources */,
+				920BB45A1F32BDC80045052E /* PublishDailyTableCell.m in Sources */,
 				92FD435E1F301272005182CB /* UserManager.m in Sources */,
 				92C9A7D31F31D0B3007938C1 /* StudySignRecordViewModel.m in Sources */,
 				92FD435D1F301272005182CB /* StorageManager.m in Sources */,
 				922F03261F2F16AB0007D8D2 /* ClubController.m in Sources */,
 				92FD43CF1F306D54005182CB /* ClubInformationViewModel.m in Sources */,
 				92FD43C51F306B85005182CB /* UITableViewCell+DataSource.m in Sources */,
+				920BB44A1F32B3400045052E /* PublishDynamicController.m in Sources */,
 				92FD438B1F301C95005182CB /* LoginController.m in Sources */,
 				92C9A7C71F31A686007938C1 /* XXAPI.m in Sources */,
 				92C9A7DD1F31D2DB007938C1 /* ClubNewClassTableCell.m in Sources */,
@@ -1408,6 +1565,7 @@
 			baseConfigurationReference = 94FEACF66D1AE40BB6E7D763 /* Pods-ChinaMerchants.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZZQ7P4EG34;
 				INFOPLIST_FILE = ChinaMerchants/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1426,6 +1584,7 @@
 			baseConfigurationReference = F66CAB4112F2ADD8C773AAAE /* Pods-ChinaMerchants.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZZQ7P4EG34;
 				INFOPLIST_FILE = ChinaMerchants/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

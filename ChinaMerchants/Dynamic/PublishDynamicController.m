@@ -1,55 +1,46 @@
 //
-//  DynamicController.mController
+//  PublishDynamicController.mController
 //  ChinaMerchants
 //
-//  Created by 易述宏 on 2017/7/31.
+//  Created by 易述宏 on 2017/8/3.
 //  Copyright © 2017年 iOS 易述宏. All rights reserved.
 //
 
-#import "DynamicController.h"
-#import "DynamicViewModel.h"
-#import "UIColor+HUE.h"
 #import "PublishDynamicController.h"
+#import "PublishDynamicViewModel.h"
+#import "UIColor+HUE.h"
 
-@interface DynamicController ()<UITableViewDelegate,UITableViewDataSource>
+#import "WYWLineTableViewCell.h"
+#import "PublishConentTableCell.h"
+#import "PublishImageTableCell.h"
 
-@property (nonatomic, strong) DynamicViewModel *viewModel;
+@interface PublishDynamicController ()<UITableViewDataSource,UITableViewDelegate>
+
+@property (nonatomic, strong) PublishDynamicViewModel *viewModel;
 
 @property (nonatomic, strong) UITableView * tableView;
 
-@property (nonatomic, strong) UIBarButtonItem * publishButtonItem;
-
 @end
 
-@implementation DynamicController
+@implementation PublishDynamicController
 
 + (instancetype)instantiation{
-    return [[DynamicController alloc]init];
-}
-
-- (instancetype)init
-{
-    self = [super init];
-    if (self) {
-        self.title =@"动态";
-    }
-    return self;
+    
+    return [[PublishDynamicController alloc]init];
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.viewModel = [[DynamicViewModel alloc] init];
-    self.navigationItem.rightBarButtonItem=self.publishButtonItem;
+    self.viewModel = [[PublishDynamicViewModel alloc] init];
+    
+    [self.tableView registerClass:[WYWLineTableViewCell class] forCellReuseIdentifier:NSStringFromClass([WYWLineTableViewCell class])];
+    
+    [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([PublishConentTableCell class]) bundle:[NSBundle mainBundle]] forCellReuseIdentifier:NSStringFromClass([PublishConentTableCell class])];
+    
+    [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([PublishImageTableCell class]) bundle:[NSBundle mainBundle]] forCellReuseIdentifier:NSStringFromClass([PublishImageTableCell class])];
 
-}
-
-#pragma mark -respond
--(void)publishAction{
-
-    PublishDynamicController * publishDynamicController =[PublishDynamicController instantiation];
-    publishDynamicController.title =@"发布动态";
-    publishDynamicController.hidesBottomBarWhenPushed =YES;
-    [self.navigationController pushViewController:publishDynamicController animated:YES];
+    [self.viewModel layerUI];
+    
 }
 
 #pragma mark -UITableViewDataSource
@@ -88,14 +79,6 @@
         [self.view addSubview:_tableView];
     }
     return _tableView;
-}
-
--(UIBarButtonItem *)publishButtonItem{
-
-    if (!_publishButtonItem) {
-        _publishButtonItem =[[UIBarButtonItem alloc]initWithTitle:@"发布" style:UIBarButtonItemStylePlain target:self action:@selector(publishAction)];
-    }
-    return _publishButtonItem;
 }
 
 - (void)didReceiveMemoryWarning {

@@ -1,18 +1,18 @@
 //
-//  DynamicViewModel.m
+//  WorkNewlyDailyViewModel.m
 //  ChinaMerchants
 //
-//  Created by 易述宏 on 2017/7/31.
+//  Created by 易述宏 on 2017/8/3.
 //  Copyright © 2017年 iOS 易述宏. All rights reserved.
 //
 
-#import "DynamicViewModel.h"
+#import "WorkNewlyDailyViewModel.h"
 
-@interface DynamicViewModel ()
+@interface WorkNewlyDailyViewModel ()
 @property (strong, nonatomic) NSMutableArray *dataSource;
 @end
 
-@implementation DynamicViewModel
+@implementation WorkNewlyDailyViewModel
 
 - (instancetype)init{
     self = [super init];
@@ -22,11 +22,11 @@
     return self;
 }
 
-
 -(void)layerUI{
     
     //banner图
     XXCellModel *bannerCellModel = [XXCellModel instantiationWithIdentifier:@"HomeBannerTableViewCell" height:160 dataSource:nil action:nil];
+    
     //线条
     XXCellModel *lineCellModel = [XXCellModel instantiationWithIdentifier:@"WYWLineTableViewCell" height:1 dataSource:nil action:nil];
     [self.dataSource addObject:lineCellModel];

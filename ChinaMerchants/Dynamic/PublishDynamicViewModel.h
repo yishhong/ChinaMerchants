@@ -1,15 +1,15 @@
 //
-//  DynamicViewModel.h
+//  PublishDynamicViewModel.h
 //  ChinaMerchants
 //
-//  Created by 易述宏 on 2017/7/31.
+//  Created by 易述宏 on 2017/8/3.
 //  Copyright © 2017年 iOS 易述宏. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 #import "XXCellModel.h"
 
-@interface DynamicViewModel : NSObject
+@interface PublishDynamicViewModel : NSObject
 
 /**
  *  布局UI
