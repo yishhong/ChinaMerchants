@@ -30,6 +30,16 @@
 		920BB4841F32C8570045052E /* PublishImageCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 920BB4821F32C8570045052E /* PublishImageCollectionCell.xib */; };
 		920BB4871F32FCAF0045052E /* QMAssetsVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 920BB4861F32FCAF0045052E /* QMAssetsVideo.m */; };
 		920BB48D1F3318ED0045052E /* QMPatVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 920BB48C1F3318ED0045052E /* QMPatVideo.m */; };
+		920BB4931F34111A0045052E /* WYWIntegralTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 920BB4921F34111A0045052E /* WYWIntegralTableCell.m */; };
+		920BB4961F34113C0045052E /* WYWIntegralView.m in Sources */ = {isa = PBXBuildFile; fileRef = 920BB4951F34113C0045052E /* WYWIntegralView.m */; };
+		920BB49A1F3411840045052E /* WYWHomeGirdItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 920BB4991F3411840045052E /* WYWHomeGirdItemModel.m */; };
+		920BB49D1F34124A0045052E /* WYWIntegralCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 920BB49C1F34124A0045052E /* WYWIntegralCollectionCell.m */; };
+		920BB4A01F34148A0045052E /* UIColor+HEX.m in Sources */ = {isa = PBXBuildFile; fileRef = 920BB49F1F34148A0045052E /* UIColor+HEX.m */; };
+		920BB4A41F3414DC0045052E /* UIFont+font.m in Sources */ = {isa = PBXBuildFile; fileRef = 920BB4A31F3414DC0045052E /* UIFont+font.m */; };
+		920BB4AB1F341AAF0045052E /* MineLoginTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 920BB4A91F341AAF0045052E /* MineLoginTableCell.m */; };
+		920BB4AC1F341AAF0045052E /* MineLoginTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 920BB4AA1F341AAF0045052E /* MineLoginTableCell.xib */; };
+		920BB4B01F34212F0045052E /* MineTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 920BB4AE1F34212F0045052E /* MineTableCell.m */; };
+		920BB4B11F34212F0045052E /* MineTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 920BB4AF1F34212F0045052E /* MineTableCell.xib */; };
 		922F00801F2EDC200007D8D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 922F007F1F2EDC200007D8D2 /* main.m */; };
 		922F00861F2EDC200007D8D2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 922F00851F2EDC200007D8D2 /* ViewController.m */; };
 		922F00891F2EDC200007D8D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 922F00871F2EDC200007D8D2 /* Main.storyboard */; };
@@ -182,6 +192,24 @@
 		920BB4861F32FCAF0045052E /* QMAssetsVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMAssetsVideo.m; sourceTree = "<group>"; };
 		920BB48B1F3318ED0045052E /* QMPatVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMPatVideo.h; sourceTree = "<group>"; };
 		920BB48C1F3318ED0045052E /* QMPatVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMPatVideo.m; sourceTree = "<group>"; };
+		920BB4911F34111A0045052E /* WYWIntegralTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYWIntegralTableCell.h; sourceTree = "<group>"; };
+		920BB4921F34111A0045052E /* WYWIntegralTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYWIntegralTableCell.m; sourceTree = "<group>"; };
+		920BB4941F34113C0045052E /* WYWIntegralView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYWIntegralView.h; sourceTree = "<group>"; };
+		920BB4951F34113C0045052E /* WYWIntegralView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYWIntegralView.m; sourceTree = "<group>"; };
+		920BB4981F3411840045052E /* WYWHomeGirdItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYWHomeGirdItemModel.h; sourceTree = "<group>"; };
+		920BB4991F3411840045052E /* WYWHomeGirdItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYWHomeGirdItemModel.m; sourceTree = "<group>"; };
+		920BB49B1F34124A0045052E /* WYWIntegralCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYWIntegralCollectionCell.h; sourceTree = "<group>"; };
+		920BB49C1F34124A0045052E /* WYWIntegralCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYWIntegralCollectionCell.m; sourceTree = "<group>"; };
+		920BB49E1F34148A0045052E /* UIColor+HEX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HEX.h"; sourceTree = "<group>"; };
+		920BB49F1F34148A0045052E /* UIColor+HEX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HEX.m"; sourceTree = "<group>"; };
+		920BB4A21F3414DC0045052E /* UIFont+font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+font.h"; sourceTree = "<group>"; };
+		920BB4A31F3414DC0045052E /* UIFont+font.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+font.m"; sourceTree = "<group>"; };
+		920BB4A81F341AAF0045052E /* MineLoginTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineLoginTableCell.h; sourceTree = "<group>"; };
+		920BB4A91F341AAF0045052E /* MineLoginTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineLoginTableCell.m; sourceTree = "<group>"; };
+		920BB4AA1F341AAF0045052E /* MineLoginTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MineLoginTableCell.xib; sourceTree = "<group>"; };
+		920BB4AD1F34212F0045052E /* MineTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineTableCell.h; sourceTree = "<group>"; };
+		920BB4AE1F34212F0045052E /* MineTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineTableCell.m; sourceTree = "<group>"; };
+		920BB4AF1F34212F0045052E /* MineTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MineTableCell.xib; sourceTree = "<group>"; };
 		922F007B1F2EDC200007D8D2 /* ChinaMerchants.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChinaMerchants.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		922F007F1F2EDC200007D8D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		922F00841F2EDC200007D8D2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -451,6 +479,24 @@
 			path = UIAlertController;
 			sourceTree = "<group>";
 		};
+		920BB4971F3411840045052E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				920BB4981F3411840045052E /* WYWHomeGirdItemModel.h */,
+				920BB4991F3411840045052E /* WYWHomeGirdItemModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		920BB4A11F3414AA0045052E /* UIFont */ = {
+			isa = PBXGroup;
+			children = (
+				920BB4A21F3414DC0045052E /* UIFont+font.h */,
+				920BB4A31F3414DC0045052E /* UIFont+font.m */,
+			);
+			path = UIFont;
+			sourceTree = "<group>";
+		};
 		922F00721F2EDC200007D8D2 = {
 			isa = PBXGroup;
 			children = (
@@ -588,6 +634,7 @@
 		922F03181F2F16890007D8D2 /* Mine */ = {
 			isa = PBXGroup;
 			children = (
+				920BB4971F3411840045052E /* Model */,
 				922F03191F2F16890007D8D2 /* View */,
 				922F032E1F2F16CC0007D8D2 /* MineController.h */,
 				922F032F1F2F16CC0007D8D2 /* MineController.m */,
@@ -600,6 +647,18 @@
 		922F03191F2F16890007D8D2 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				920BB4941F34113C0045052E /* WYWIntegralView.h */,
+				920BB4951F34113C0045052E /* WYWIntegralView.m */,
+				920BB49B1F34124A0045052E /* WYWIntegralCollectionCell.h */,
+				920BB49C1F34124A0045052E /* WYWIntegralCollectionCell.m */,
+				920BB4911F34111A0045052E /* WYWIntegralTableCell.h */,
+				920BB4921F34111A0045052E /* WYWIntegralTableCell.m */,
+				920BB4A81F341AAF0045052E /* MineLoginTableCell.h */,
+				920BB4A91F341AAF0045052E /* MineLoginTableCell.m */,
+				920BB4AA1F341AAF0045052E /* MineLoginTableCell.xib */,
+				920BB4AD1F34212F0045052E /* MineTableCell.h */,
+				920BB4AE1F34212F0045052E /* MineTableCell.m */,
+				920BB4AF1F34212F0045052E /* MineTableCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -981,6 +1040,7 @@
 				92FD439F1F30252A005182CB /* MBProgressHUD */,
 				92FD43A21F30252A005182CB /* NSString */,
 				92FD43A71F30252A005182CB /* UIColor */,
+				920BB4A11F3414AA0045052E /* UIFont */,
 				92FD43AA1F30252A005182CB /* UIResponder */,
 				92FD437D1F301721005182CB /* NSError */,
 			);
@@ -1070,6 +1130,8 @@
 		92FD43A71F30252A005182CB /* UIColor */ = {
 			isa = PBXGroup;
 			children = (
+				920BB49E1F34148A0045052E /* UIColor+HEX.h */,
+				920BB49F1F34148A0045052E /* UIColor+HEX.m */,
 				92FD43A81F30252A005182CB /* UIColor+HUE.h */,
 				92FD43A91F30252A005182CB /* UIColor+HUE.m */,
 			);
@@ -1258,8 +1320,10 @@
 				922F008E1F2EDC200007D8D2 /* LaunchScreen.storyboard in Resources */,
 				922F008B1F2EDC200007D8D2 /* Assets.xcassets in Resources */,
 				92C9A7B61F308758007938C1 /* ClubVideoTableCell.xib in Resources */,
+				920BB4B11F34212F0045052E /* MineTableCell.xib in Resources */,
 				92FD439B1F301F84005182CB /* CHImages.xcassets in Resources */,
 				92C9A7AC1F3084BB007938C1 /* ClubSectionTableCell.xib in Resources */,
+				920BB4AC1F341AAF0045052E /* MineLoginTableCell.xib in Resources */,
 				922F00891F2EDC200007D8D2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1334,6 +1398,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				922F03381F2F16D90007D8D2 /* StudyController.m in Sources */,
+				920BB4931F34111A0045052E /* WYWIntegralTableCell.m in Sources */,
 				920BB4741F32BFDB0045052E /* QMPhotoCollectionPreviewController.m in Sources */,
 				92C9A7D21F31D0B3007938C1 /* StudySignRecordController.m in Sources */,
 				920BB4751F32BFDB0045052E /* QMPhotoCollectionPreviewCell.m in Sources */,
@@ -1345,11 +1410,13 @@
 				92C9A7CA1F31A727007938C1 /* Utils.m in Sources */,
 				92FD43911F301CB0005182CB /* RegisterController.m in Sources */,
 				92FD43721F30140F005182CB /* UserInfoModel.m in Sources */,
+				920BB4A01F34148A0045052E /* UIColor+HEX.m in Sources */,
 				920BB46A1F32BF660045052E /* QMAssetsPicker.m in Sources */,
 				92C9A7E91F31D9D7007938C1 /* AppDelegate+Notification.m in Sources */,
 				92C9A79E1F308211007938C1 /* RankingImageViewTableViewCell.m in Sources */,
 				92C9A7C41F317357007938C1 /* QMCalendarDayCell.m in Sources */,
 				92FD43B21F30252A005182CB /* UIResponder+Empty.m in Sources */,
+				920BB4A41F3414DC0045052E /* UIFont+font.m in Sources */,
 				92FD43B01F30252A005182CB /* NSString+Size.m in Sources */,
 				92FD43AE1F30252A005182CB /* MBProgressHUD+Loading.m in Sources */,
 				922F01191F2EDDDC0007D8D2 /* BaseTabBarController.m in Sources */,
@@ -1364,6 +1431,7 @@
 				92FD43981F301CC1005182CB /* AuthCodeViewModel.m in Sources */,
 				92FD43D91F306E24005182CB /* CAPSPageMenu.m in Sources */,
 				92FD43B91F30605C005182CB /* UINavigationBar+Custom.m in Sources */,
+				920BB49A1F3411840045052E /* WYWHomeGirdItemModel.m in Sources */,
 				92C9A7D81F31D1DE007938C1 /* StudyClassSummaryController.m in Sources */,
 				92FD43AF1F30252A005182CB /* NSString+Others.m in Sources */,
 				92C9A7951F307B3F007938C1 /* ClubAddressTableCell.m in Sources */,
@@ -1371,6 +1439,7 @@
 				92FD43B81F30605C005182CB /* UINavigationBar+Awesome.m in Sources */,
 				920BB46B1F32BF660045052E /* QMImagePicker.m in Sources */,
 				922F032D1F2F16BC0007D8D2 /* WorkViewModel.m in Sources */,
+				920BB49D1F34124A0045052E /* WYWIntegralCollectionCell.m in Sources */,
 				920BB4871F32FCAF0045052E /* QMAssetsVideo.m in Sources */,
 				920BB4831F32C8570045052E /* PublishImageCollectionCell.m in Sources */,
 				92FD43E01F307691005182CB /* ClubNameTableCell.m in Sources */,
@@ -1389,6 +1458,7 @@
 				922F03491F2F17710007D8D2 /* AppDelegate.m in Sources */,
 				920BB47D1F32C1550045052E /* UIAlertController+Camera.m in Sources */,
 				92FD43C61F306B85005182CB /* XXCellModel.m in Sources */,
+				920BB4AB1F341AAF0045052E /* MineLoginTableCell.m in Sources */,
 				92FD43921F301CB0005182CB /* RegisterViewModel.m in Sources */,
 				920BB47E1F32C1550045052E /* UIAlertController+MapNavigation.m in Sources */,
 				920BB4551F32BC0D0045052E /* WorkNewlyDailyController.m in Sources */,
@@ -1399,6 +1469,7 @@
 				920BB45A1F32BDC80045052E /* PublishDailyTableCell.m in Sources */,
 				92FD435E1F301272005182CB /* UserManager.m in Sources */,
 				92C9A7D31F31D0B3007938C1 /* StudySignRecordViewModel.m in Sources */,
+				920BB4961F34113C0045052E /* WYWIntegralView.m in Sources */,
 				92FD435D1F301272005182CB /* StorageManager.m in Sources */,
 				922F03261F2F16AB0007D8D2 /* ClubController.m in Sources */,
 				92FD43CF1F306D54005182CB /* ClubInformationViewModel.m in Sources */,
@@ -1410,6 +1481,7 @@
 				92FD43561F300EBF005182CB /* EMChatManager.m in Sources */,
 				92FD43D41F306D8B005182CB /* ClubSynopsisController.m in Sources */,
 				922F03331F2F16CC0007D8D2 /* MineViewModel.m in Sources */,
+				920BB4B01F34212F0045052E /* MineTableCell.m in Sources */,
 				92FD43CE1F306D54005182CB /* ClubInformationController.m in Sources */,
 				92FD437B1F30153D005182CB /* InfoPlist.m in Sources */,
 				92C9A7AB1F3084BB007938C1 /* ClubSectionTableCell.m in Sources */,

@@ -53,12 +53,6 @@
  */
 + (UIColor *)tabTintColor;
 
-/**
- *  文字色彩与APP主题(navigation的背景色)颜色一致的 调用这个方法
- *
- *  @return 返回用于文字的颜色
- */
-+ (UIColor *)textColor;
 
 /**
  *  灰色间隔线颜色
@@ -74,12 +68,6 @@
  */
 + (UIColor *)controllerBackgroundColor;
 
-/**
- *  替换系统的黑色
- *
- *  @return 黑色
- */
-+ (UIColor *)blackTextColor;
 
 /**
  *  红色
@@ -87,6 +75,13 @@
  *  @return 返回红色
  */
 +(UIColor *)VPRedColor;
+
+/**
+ 主色
+
+ @return <#return value description#>
+ */
++(UIColor *)VPMainColor;
 
 /**
  *  灰色字体
@@ -109,19 +104,20 @@
  */
 +(UIColor *)VPContentColor;
 
-/**
- *  背景色
- *
- *  @return 灰色
- */
-+(UIColor *)VPBackgroundColor;
 
 /**
  *  订单状态颜色
  *
- *  @return
+ *  @return 橘红色
  */
-+(UIColor *)orderColor;
++(UIColor *)VPOrderColor;
+
+/**
+ 备选按钮灰
+
+ @return <#return value description#>
+ */
++(UIColor *)btnColor;
 
 
 @end

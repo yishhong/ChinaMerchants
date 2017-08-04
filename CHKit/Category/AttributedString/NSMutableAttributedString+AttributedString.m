@@ -61,7 +61,7 @@
     NSMutableAttributedString *AttributedStr = [[NSMutableAttributedString alloc]initWithString:allString];
     [AttributedStr addAttribute:NSForegroundColorAttributeName
      
-                          value:[UIColor orderColor]
+                          value:[UIColor VPOrderColor]
      
                           range:NSMakeRange(range.location, range.length)];
     return AttributedStr;
@@ -72,7 +72,7 @@
     NSMutableAttributedString *AttributedStr = [[NSMutableAttributedString alloc]initWithString:changeColorString];
     [AttributedStr addAttribute:NSForegroundColorAttributeName
      
-                          value:[UIColor orderColor]
+                          value:[UIColor VPOrderColor]
      
                           range:NSMakeRange(location, length)];
     return AttributedStr;

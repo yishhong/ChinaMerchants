@@ -7,6 +7,7 @@
 //
 
 #import "UIColor+HUE.h"
+#import "UIColor+HEX.h"
 
 @implementation UIColor (HUE)
 
@@ -36,53 +37,51 @@
     return [self navigationTintColor];
 }
 
-+ (UIColor *)textColor{
-    return [self navigationBarTintColor];
-}
 
 + (UIColor *)septalLineColor{
-    return [UIColor colorWithRed:193.0f/255.0f green:193.0f/255.0f blue:193.0f/255.0f alpha:1.0f];
+    return [UIColor colorWithHexString:@"#e5e5e5"];
 }
 
 + (UIColor *)controllerBackgroundColor{
-    return [UIColor colorWithRed:240.0f/255.0f green:243.0f/255.0f blue:246.0f/255.0f alpha:1.0f];
+    return [UIColor colorWithHexString:@"#f5f5f5"];
 }
 
-+ (UIColor *)blackTextColor{
-    return [UIColor colorWithRed:10.0f/255.0f green:30.0f/255.0f blue:48.0f/255.0f alpha:1.0f];
-}
 
 +(UIColor *)VPRedColor{
 
     return [UIColor colorWithRed:242.0f/255.0f green:48.0f/225.0f blue:48.0f/225.0f alpha:1.0f];
 }
 
++(UIColor *)VPMainColor{
+
+    return [UIColor colorWithHexString:@"#3a3c48"];
+}
+
 +(UIColor *)VPDetailColor{
 
-    return [UIColor colorWithRed:168.0f/225.0f green:168.0f/225.0 blue:168.0f/225.0f alpha:1.0f];
+    return [UIColor colorWithHexString:@"#999999"];
 }
 
 +(UIColor *)VPTitleColor{
 
-    return [UIColor colorWithRed:35.0f/255.0f green:38.0f/225.0f blue:38.0f/225.0f alpha:1.0f];
+    return [UIColor colorWithHexString:@"#000000"];
 
 }
 
 +(UIColor *)VPContentColor{
 
-    return [UIColor colorWithRed:104.0f/255.0f green:104.0f/225.0f blue:104.0f/225.0f alpha:1.0f];
-
+    return [UIColor colorWithHexString:@"#666666"];
 }
 
-+(UIColor *)VPBackgroundColor{
 
-    return [UIColor colorWithRed:226.4f/255.0f green:199.7f/225.0f blue:200.8f/225.0f alpha:1.0f];
++(UIColor *)VPOrderColor{
 
+    return [UIColor colorWithHexString:@"#fd5454"];
 }
 
-+(UIColor *)orderColor{
-
-    return [UIColor colorWithRed:255.4f/255.0f green:85.0f/225.0f blue:0.0f/225.0f alpha:1.0f];
++(UIColor *)btnColor{
+    
+    return [UIColor colorWithHexString:@"#f0f0f0"];
 }
 
 @end

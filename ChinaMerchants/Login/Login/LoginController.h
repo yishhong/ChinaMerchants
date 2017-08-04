@@ -10,6 +10,6 @@
 
 @interface LoginController : BaseViewController
 
-+ (instancetype)instantiation;
++ (UIViewController *)instantiation;
 
 @end

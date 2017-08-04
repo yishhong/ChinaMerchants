@@ -16,7 +16,7 @@
     self =[super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
         self.selectionStyle=UITableViewCellSelectionStyleNone;
-        self.backgroundColor =[UIColor controllerBackgroundColor];
+        self.backgroundColor =[UIColor septalLineColor];
     }
     return self;
 }

@@ -35,8 +35,10 @@
 
 @implementation LoginController
 
-+ (instancetype)instantiation{
-    return [[LoginController alloc]init];
++ (UIViewController *)instantiation{
+    LoginController * loginController = [[LoginController alloc]init];
+    BaseNavigationController * nagationController =[[BaseNavigationController alloc]initWithRootViewController:loginController];
+    return nagationController;
 }
 
 - (void)viewDidLoad {
@@ -178,7 +180,7 @@
 //登录
 -(void)loginAction{
 
-    
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 
