@@ -41,4 +41,10 @@ typedef enum : NSUInteger {
     HomeInformationBillboardType  = 114,//信息公示
 }ArticleType;
 
+typedef enum : NSUInteger {
+    loginRegisterType        =   0 ,//注册
+    loginForgotPasswordType     =  1 ,//忘记密码
+}userInfoType;
+
+
 #endif /* CHTypeEnum_h */

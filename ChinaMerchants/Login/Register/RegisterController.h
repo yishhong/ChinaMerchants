@@ -7,9 +7,14 @@
 //
 
 #import "BaseViewController.h"
+#import "CHTypeEnum.h"
+
 
 @interface RegisterController : BaseViewController
 
 + (instancetype)instantiation;
+
+@property(assign, nonatomic) userInfoType userType;
+
 
 @end

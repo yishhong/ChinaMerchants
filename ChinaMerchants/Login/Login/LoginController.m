@@ -14,10 +14,13 @@
 #import "BaseNavigationController.h"
 #import "UINavigationBar+Custom.h"
 #import "UINavigationBar+Awesome.h"
+#import "CHTypeEnum.h"
 
 @interface LoginController ()<UITextFieldDelegate>
 
 @property (nonatomic, strong) LoginViewModel *viewModel;
+
+@property (strong, nonatomic) UIBarButtonItem * closeBarButton;
 
 @property (strong, nonatomic) UIImageView * loginImageView;
 
@@ -44,13 +47,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self.navigationController.navigationBar lt_setBackgroundColor:[UIColor clearColor] lineView:[UIColor clearColor]];
+    self.navigationItem.leftBarButtonItem =self.closeBarButton;
     self.viewModel = [[LoginViewModel alloc] init];
     [self setUI];
 }
 
-
 -(void)setUI{
-
+    
     self.loginImageView =[[UIImageView alloc]init];
     self.loginImageView.image =[UIImage imageNamed:@"login_icon"];
     [self.view addSubview:self.loginImageView];
@@ -168,13 +171,17 @@
 
     RegisterController * registerController = [RegisterController instantiation];
     registerController.title =@"注册";
+    registerController.userType =loginRegisterType;
     [self.navigationController pushViewController:registerController animated:YES];
 }
 
 //忘记密码
 -(void)forgetPasswordAction{
 
-    
+    RegisterController * registerController = [RegisterController instantiation];
+    registerController.title =@"忘记密码";
+    registerController.userType =loginForgotPasswordType;
+    [self.navigationController pushViewController:registerController animated:YES];
 }
 
 //登录
@@ -183,7 +190,18 @@
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
+-(void)closeAction{
 
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+-(UIBarButtonItem *)closeBarButton{
+
+    if (!_closeBarButton) {
+        _closeBarButton =[[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"login_icon"] style:UIBarButtonItemStylePlain target:self action:@selector(closeAction)];
+    }
+    return _closeBarButton;
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

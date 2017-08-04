@@ -40,6 +40,14 @@
 		920BB4AC1F341AAF0045052E /* MineLoginTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 920BB4AA1F341AAF0045052E /* MineLoginTableCell.xib */; };
 		920BB4B01F34212F0045052E /* MineTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 920BB4AE1F34212F0045052E /* MineTableCell.m */; };
 		920BB4B11F34212F0045052E /* MineTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 920BB4AF1F34212F0045052E /* MineTableCell.xib */; };
+		920BB4C31F34573C0045052E /* WebController.m in Sources */ = {isa = PBXBuildFile; fileRef = 920BB4C01F34573C0045052E /* WebController.m */; };
+		920BB4C41F34573C0045052E /* WebViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 920BB4C21F34573C0045052E /* WebViewModel.m */; };
+		920BB4CC1F3459920045052E /* css in Resources */ = {isa = PBXBuildFile; fileRef = 920BB4C61F3459920045052E /* css */; };
+		920BB4CD1F3459920045052E /* img in Resources */ = {isa = PBXBuildFile; fileRef = 920BB4C71F3459920045052E /* img */; };
+		920BB4CE1F3459920045052E /* js in Resources */ = {isa = PBXBuildFile; fileRef = 920BB4C81F3459920045052E /* js */; };
+		920BB4CF1F3459920045052E /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 920BB4C91F3459920045052E /* manifest.json */; };
+		920BB4D01F3459920045052E /* unpackage in Resources */ = {isa = PBXBuildFile; fileRef = 920BB4CA1F3459920045052E /* unpackage */; };
+		920BB4D11F3459920045052E /* xieyi.html in Resources */ = {isa = PBXBuildFile; fileRef = 920BB4CB1F3459920045052E /* xieyi.html */; };
 		922F00801F2EDC200007D8D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 922F007F1F2EDC200007D8D2 /* main.m */; };
 		922F00861F2EDC200007D8D2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 922F00851F2EDC200007D8D2 /* ViewController.m */; };
 		922F00891F2EDC200007D8D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 922F00871F2EDC200007D8D2 /* Main.storyboard */; };
@@ -210,6 +218,16 @@
 		920BB4AD1F34212F0045052E /* MineTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineTableCell.h; sourceTree = "<group>"; };
 		920BB4AE1F34212F0045052E /* MineTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineTableCell.m; sourceTree = "<group>"; };
 		920BB4AF1F34212F0045052E /* MineTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MineTableCell.xib; sourceTree = "<group>"; };
+		920BB4BF1F34573C0045052E /* WebController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebController.h; sourceTree = "<group>"; };
+		920BB4C01F34573C0045052E /* WebController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebController.m; sourceTree = "<group>"; };
+		920BB4C11F34573C0045052E /* WebViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewModel.h; sourceTree = "<group>"; };
+		920BB4C21F34573C0045052E /* WebViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewModel.m; sourceTree = "<group>"; };
+		920BB4C61F3459920045052E /* css */ = {isa = PBXFileReference; lastKnownFileType = folder; path = css; sourceTree = "<group>"; };
+		920BB4C71F3459920045052E /* img */ = {isa = PBXFileReference; lastKnownFileType = folder; path = img; sourceTree = "<group>"; };
+		920BB4C81F3459920045052E /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; path = js; sourceTree = "<group>"; };
+		920BB4C91F3459920045052E /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		920BB4CA1F3459920045052E /* unpackage */ = {isa = PBXFileReference; lastKnownFileType = folder; path = unpackage; sourceTree = "<group>"; };
+		920BB4CB1F3459920045052E /* xieyi.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = xieyi.html; sourceTree = "<group>"; };
 		922F007B1F2EDC200007D8D2 /* ChinaMerchants.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChinaMerchants.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		922F007F1F2EDC200007D8D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		922F00841F2EDC200007D8D2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -497,9 +515,34 @@
 			path = UIFont;
 			sourceTree = "<group>";
 		};
+		920BB4BE1F3457210045052E /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				920BB4BF1F34573C0045052E /* WebController.h */,
+				920BB4C01F34573C0045052E /* WebController.m */,
+				920BB4C11F34573C0045052E /* WebViewModel.h */,
+				920BB4C21F34573C0045052E /* WebViewModel.m */,
+			);
+			path = Web;
+			sourceTree = "<group>";
+		};
+		920BB4C51F3459820045052E /* agreementHtml */ = {
+			isa = PBXGroup;
+			children = (
+				920BB4C61F3459920045052E /* css */,
+				920BB4C71F3459920045052E /* img */,
+				920BB4C81F3459920045052E /* js */,
+				920BB4C91F3459920045052E /* manifest.json */,
+				920BB4CA1F3459920045052E /* unpackage */,
+				920BB4CB1F3459920045052E /* xieyi.html */,
+			);
+			path = agreementHtml;
+			sourceTree = "<group>";
+		};
 		922F00721F2EDC200007D8D2 = {
 			isa = PBXGroup;
 			children = (
+				920BB4C51F3459820045052E /* agreementHtml */,
 				92FD43731F3014EB005182CB /* CHKit */,
 				92FD43571F30125F005182CB /* ChShare */,
 				922F00B11F2EDCA50007D8D2 /* CHTypeEnum.h */,
@@ -528,6 +571,7 @@
 		922F007D1F2EDC200007D8D2 /* ChinaMerchants */ = {
 			isa = PBXGroup;
 			children = (
+				920BB4BE1F3457210045052E /* Web */,
 				922F031E1F2F16890007D8D2 /* Club */,
 				922F03161F2F16890007D8D2 /* Work */,
 				922F03181F2F16890007D8D2 /* Mine */,
@@ -1308,6 +1352,9 @@
 				920BB45B1F32BDC80045052E /* PublishDailyTableCell.xib in Resources */,
 				920BB4601F32BE450045052E /* PublishConentTableCell.xib in Resources */,
 				920BB4501F32B4B30045052E /* PublishImageTableCell.xib in Resources */,
+				920BB4CE1F3459920045052E /* js in Resources */,
+				920BB4CF1F3459920045052E /* manifest.json in Resources */,
+				920BB4CC1F3459920045052E /* css in Resources */,
 				92C9A7A71F308274007938C1 /* RankingCollectionViewCell.xib in Resources */,
 				92C9A7B11F308597007938C1 /* ClubClassImageTableCell.xib in Resources */,
 				92C9A7DE1F31D2DB007938C1 /* ClubNewClassTableCell.xib in Resources */,
@@ -1321,7 +1368,10 @@
 				922F008B1F2EDC200007D8D2 /* Assets.xcassets in Resources */,
 				92C9A7B61F308758007938C1 /* ClubVideoTableCell.xib in Resources */,
 				920BB4B11F34212F0045052E /* MineTableCell.xib in Resources */,
+				920BB4D11F3459920045052E /* xieyi.html in Resources */,
 				92FD439B1F301F84005182CB /* CHImages.xcassets in Resources */,
+				920BB4CD1F3459920045052E /* img in Resources */,
+				920BB4D01F3459920045052E /* unpackage in Resources */,
 				92C9A7AC1F3084BB007938C1 /* ClubSectionTableCell.xib in Resources */,
 				920BB4AC1F341AAF0045052E /* MineLoginTableCell.xib in Resources */,
 				922F00891F2EDC200007D8D2 /* Main.storyboard in Resources */,
@@ -1445,6 +1495,7 @@
 				92FD43E01F307691005182CB /* ClubNameTableCell.m in Sources */,
 				922F00861F2EDC200007D8D2 /* ViewController.m in Sources */,
 				92C9A7A61F308274007938C1 /* RankingCollectionViewCell.m in Sources */,
+				920BB4C41F34573C0045052E /* WebViewModel.m in Sources */,
 				92FD43771F3014EB005182CB /* QMStorageManage.m in Sources */,
 				922F011C1F2EE0230007D8D2 /* BaseNavigationController.m in Sources */,
 				922F034F1F2F19010007D8D2 /* RootController.m in Sources */,
@@ -1493,6 +1544,7 @@
 				92FD43C91F306BE1005182CB /* WYWLineTableViewCell.m in Sources */,
 				922F032C1F2F16BC0007D8D2 /* WorkController.m in Sources */,
 				92C9A7C11F3171CF007938C1 /* QMCalendarView.m in Sources */,
+				920BB4C31F34573C0045052E /* WebController.m in Sources */,
 				922F03271F2F16AB0007D8D2 /* ClubViewModel.m in Sources */,
 				922F03391F2F16D90007D8D2 /* StudyViewModel.m in Sources */,
 				92C9A7A51F308274007938C1 /* RankingCollectionView.m in Sources */,
