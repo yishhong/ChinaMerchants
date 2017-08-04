@@ -11,6 +11,8 @@
 #import "XXCellModel.h"
 #import "QMImagePicker.h"
 #import "QMAssetsPicker.h"
+#import "QMAssetsVideo.h"
+#import "QMPatVideo.h"
 #import "QMPhotoCollectionPreviewController.h"
 #import "UIAlertController+Camera.h"
 #import "RootController.h"
@@ -23,6 +25,8 @@
 @interface PublishImageTableCell ()<UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
 @property (nonatomic, strong) QMImagePicker *imagePicker;
 @property (strong, nonatomic) QMAssetsPicker *assetsPicker;
+@property (strong, nonatomic) QMAssetsVideo * assetsVideo;
+@property (strong, nonatomic) QMPatVideo * patVideo;
 @property (strong, nonatomic) NSMutableArray *imageArray;
 @property (strong, nonatomic) QMPhotoCollectionPreviewController * photoCollectionPerview;
 
@@ -41,7 +45,7 @@
     layout.minimumInteritemSpacing = 0;
     layout.scrollDirection= UICollectionViewScrollDirectionHorizontal;
     self.collectionView.collectionViewLayout = layout;
-    self.collectionView.backgroundColor =[UIColor redColor];
+    self.collectionView.backgroundColor =[UIColor whiteColor];
     self.collectionView.delegate = self;
     self.collectionView.dataSource = self;
     
@@ -53,7 +57,7 @@
     XXCellModel *cellModel = entity;
     self.imageArray = cellModel.dataSource;
     if([self.imageArray count]==0){
-        [self.imageArray addObject:@{@"type":@0,@"image":[UIImage imageNamed:@"icon_xc"]}];
+        [self.imageArray addObject:@{@"type":@0,@"video":@"public.image",@"image":[UIImage imageNamed:@"icon_xc"]}];
     }
     [self.collectionView reloadData];
 }
@@ -83,9 +87,15 @@
         if(index==0){
             //相机
             [self pickImageFromCamera];
-        }else{
+        }else if(index==1){
             //相册
             [self pickImageFromAlbum];
+        }else if (index==2){
+            //录制视频
+            [self patVideoFromAlbum];
+        }else{
+            //从相册选择视频
+            [self videoFromAlbum];
         }
     }];
     [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:alertController animated:YES completion:nil];
@@ -105,11 +115,6 @@
                     //转换图片
                     [self.imageArray insertObject:@{@"type":@1,@"image":image} atIndex:0];
                     [self.collectionView reloadData];
-                    
-//                    self.lb_title.text = [NSString  stringWithFormat:@"已选%zd张,最多可选9张",[self.imageArray count]>MAXImageCount?MAXImageCount:[self.imageArray count]-1];
-                    
-                    //                    [self.viewModel selectPhotoImage:image];
-                    //                    [self.tableView reloadData];
                 }
             }else{
                 UIAlertView *alterView = [[UIAlertView alloc] initWithTitle:@"相机授权" message:@"没有权限访问您的相机，请在“设置－隐私－相机”中允许使用" delegate:nil cancelButtonTitle:@"取消" otherButtonTitles:nil, nil];
@@ -128,7 +133,6 @@
     if(!self.assetsPicker){
         self.assetsPicker = [[QMAssetsPicker alloc] init];
     }
-    //    self.assetsPicker.maxNumber = [self.viewModel selectImageCount];
     [self.assetsPicker showAssetsPickerWithController:[UIApplication sharedApplication].keyWindow.rootViewController amount:9-[self.imageArray count]+1 isReserve:NO withBlock:^(PHAuthorizationStatus status, NSArray *images) {
         if(status != PHAuthorizationStatusAuthorized){
             //提示用户
@@ -138,26 +142,62 @@
         }else{
             NSInteger i = 0;
             for (UIImage *image in images) {
-                [self.imageArray insertObject:@{@"type":@1,@"image":image} atIndex:i];
+                [self.imageArray insertObject:@{@"type":@1,@"video":@"public.image",@"image":image} atIndex:i];
                 i++;
             }
             [self.collectionView reloadData];
-//            self.lb_title.text = [NSString  stringWithFormat:@"已选%zd张,最多可选9张",[self.imageArray count]>MAXImageCount?MAXImageCount:[self.imageArray count]-1];
-            
-            //            [self.viewModel selectPhotoImage:image];
-            //            [self.tableView reloadData];
         }
     }];
-    //    [self.assetsPicker showAssetsPickerWithController:self withBlock:^(PHAuthorizationStatus status, NSArray *images) {
-    //
-    //        //这里获取取到的图片数据
-    ////        [self.viewModel addImages:images];
-    //        //这里后续修改成刷新指定行的数据
-    ////        [self.tableView reloadData];
-    //    }];
 }
 
+//从相册中选择视频
+-(void)videoFromAlbum{
 
+    if (!self.assetsVideo) {
+        self.assetsVideo =[[QMAssetsVideo alloc]init];
+    }
+    [self.assetsVideo showAssetsVideoWithController:[UIApplication sharedApplication].keyWindow.rootViewController amount:1 isReserve:NO withBlock:^(PHAuthorizationStatus status, NSArray *images) {
+        if(status != PHAuthorizationStatusAuthorized){
+            //提示用户
+            UIAlertView *alterView = [[UIAlertView alloc] initWithTitle:@"相册授权" message:@"没有权限访问您的相册，请在“设置－隐私－相册”中允许使用" delegate:nil cancelButtonTitle:@"取消" otherButtonTitles:nil, nil];
+            [alterView show];
+            return ;
+        }else{
+            NSInteger i = 0;
+            for (UIImage *image in images) {
+                [self.imageArray insertObject:@{@"type":@1,@"video":@"public.image",@"image":image} atIndex:i];
+                i++;
+            }
+            [self.collectionView reloadData];
+
+        }
+    }];
+}
+
+//录制视频
+- (void)patVideoFromAlbum{
+
+    if (!self.patVideo) {
+        self.patVideo =[[QMPatVideo alloc]init];
+    }
+    [self.patVideo patVideoWithController:[UIApplication sharedApplication].keyWindow.rootViewController block:^(BOOL isSourceTypeAvailable, AVAuthorizationStatus authorizationStatus, NSString *videoPath) {
+        if(isSourceTypeAvailable){
+            if(authorizationStatus == AVAuthorizationStatusAuthorized){
+                if(videoPath){
+                    //转换图片
+                    [self.imageArray insertObject:@{@"type":@1,@"video":@"public.movie",@"image":videoPath} atIndex:0];
+                    [self.collectionView reloadData];
+                }
+            }else{
+                UIAlertView *alterView = [[UIAlertView alloc] initWithTitle:@"相机授权" message:@"没有权限访问您的相机，请在“设置－隐私－相机”中允许使用" delegate:nil cancelButtonTitle:@"取消" otherButtonTitles:nil, nil];
+                [alterView show];
+            }
+        }else{
+            UIAlertView *alterView = [[UIAlertView alloc] initWithTitle:nil message:@"您的设置暂不支持相机功能" delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil, nil];
+            [alterView show];
+        }
+    }];
+}
 
 - (void)showIndex:(NSInteger)index{
     //    预览
@@ -192,7 +232,7 @@
         [weakSelf.collectionView reloadData];
     };
     RootController *tabBarVC = (RootController *)[UIApplication sharedApplication].keyWindow.rootViewController;
-    BaseNavigationController * navigationVC = [tabBarVC.viewControllers objectAtIndex:0];
+    BaseNavigationController * navigationVC = [tabBarVC.viewControllers objectAtIndex:1];
     [navigationVC pushViewController:self.photoCollectionPerview animated:YES];
 }
 

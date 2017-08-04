@@ -32,4 +32,6 @@ typedef void(^ImagePickerBlock)(BOOL isSourceTypeAvailable,AVAuthorizationStatus
  */
 - (void)imagePickerWithController:(UIViewController *)vc block:(ImagePickerBlock)imagePickerBlock;
 
+
+
 @end

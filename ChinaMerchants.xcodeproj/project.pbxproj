@@ -28,6 +28,8 @@
 		920BB47F1F32C1550045052E /* UIAlertController+Order.m in Sources */ = {isa = PBXBuildFile; fileRef = 920BB47C1F32C1550045052E /* UIAlertController+Order.m */; };
 		920BB4831F32C8570045052E /* PublishImageCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 920BB4811F32C8570045052E /* PublishImageCollectionCell.m */; };
 		920BB4841F32C8570045052E /* PublishImageCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 920BB4821F32C8570045052E /* PublishImageCollectionCell.xib */; };
+		920BB4871F32FCAF0045052E /* QMAssetsVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 920BB4861F32FCAF0045052E /* QMAssetsVideo.m */; };
+		920BB48D1F3318ED0045052E /* QMPatVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 920BB48C1F3318ED0045052E /* QMPatVideo.m */; };
 		922F00801F2EDC200007D8D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 922F007F1F2EDC200007D8D2 /* main.m */; };
 		922F00861F2EDC200007D8D2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 922F00851F2EDC200007D8D2 /* ViewController.m */; };
 		922F00891F2EDC200007D8D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 922F00871F2EDC200007D8D2 /* Main.storyboard */; };
@@ -176,6 +178,10 @@
 		920BB4801F32C8570045052E /* PublishImageCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublishImageCollectionCell.h; sourceTree = "<group>"; };
 		920BB4811F32C8570045052E /* PublishImageCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublishImageCollectionCell.m; sourceTree = "<group>"; };
 		920BB4821F32C8570045052E /* PublishImageCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PublishImageCollectionCell.xib; sourceTree = "<group>"; };
+		920BB4851F32FCAF0045052E /* QMAssetsVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMAssetsVideo.h; sourceTree = "<group>"; };
+		920BB4861F32FCAF0045052E /* QMAssetsVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMAssetsVideo.m; sourceTree = "<group>"; };
+		920BB48B1F3318ED0045052E /* QMPatVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMPatVideo.h; sourceTree = "<group>"; };
+		920BB48C1F3318ED0045052E /* QMPatVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMPatVideo.m; sourceTree = "<group>"; };
 		922F007B1F2EDC200007D8D2 /* ChinaMerchants.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChinaMerchants.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		922F007F1F2EDC200007D8D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		922F00841F2EDC200007D8D2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -393,6 +399,8 @@
 				920BB4621F32BF660045052E /* CTAssetsPickerController */,
 				920BB4671F32BF660045052E /* QMImagePicker.h */,
 				920BB4681F32BF660045052E /* QMImagePicker.m */,
+				920BB48B1F3318ED0045052E /* QMPatVideo.h */,
+				920BB48C1F3318ED0045052E /* QMPatVideo.m */,
 			);
 			path = QMPhoto;
 			sourceTree = "<group>";
@@ -404,6 +412,8 @@
 				920BB4641F32BF660045052E /* CTAssetsPickerController+Custom.m */,
 				920BB4651F32BF660045052E /* QMAssetsPicker.h */,
 				920BB4661F32BF660045052E /* QMAssetsPicker.m */,
+				920BB4851F32FCAF0045052E /* QMAssetsVideo.h */,
+				920BB4861F32FCAF0045052E /* QMAssetsVideo.m */,
 			);
 			path = CTAssetsPickerController;
 			sourceTree = "<group>";
@@ -1361,6 +1371,7 @@
 				92FD43B81F30605C005182CB /* UINavigationBar+Awesome.m in Sources */,
 				920BB46B1F32BF660045052E /* QMImagePicker.m in Sources */,
 				922F032D1F2F16BC0007D8D2 /* WorkViewModel.m in Sources */,
+				920BB4871F32FCAF0045052E /* QMAssetsVideo.m in Sources */,
 				920BB4831F32C8570045052E /* PublishImageCollectionCell.m in Sources */,
 				92FD43E01F307691005182CB /* ClubNameTableCell.m in Sources */,
 				922F00861F2EDC200007D8D2 /* ViewController.m in Sources */,
@@ -1372,6 +1383,7 @@
 				92FD43971F301CC1005182CB /* AuthCodeController.m in Sources */,
 				922F01161F2EDDA60007D8D2 /* BaseViewController.m in Sources */,
 				920BB44F1F32B4B30045052E /* PublishImageTableCell.m in Sources */,
+				920BB48D1F3318ED0045052E /* QMPatVideo.m in Sources */,
 				922F034C1F2F18450007D8D2 /* AppDelegate+MainUI.m in Sources */,
 				92C9A7D91F31D1DE007938C1 /* StudyClassSummaryViewModel.m in Sources */,
 				922F03491F2F17710007D8D2 /* AppDelegate.m in Sources */,

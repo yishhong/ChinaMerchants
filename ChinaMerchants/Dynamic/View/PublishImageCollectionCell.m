@@ -18,7 +18,12 @@
 
 - (void)xx_configCellWithEntity:(id)entity{
     NSDictionary *imageDict = entity;
-    self.pictureImage.image = imageDict[@"image"];
+    if ([imageDict[@"video"] length]>0&&[imageDict[@"video"] isEqualToString:@"public.movie"]) {
+        NSData * data =[NSData dataWithContentsOfFile:imageDict[@"image"]];
+        self.pictureImage.image =[UIImage imageWithData:data];
+    }else{
+        self.pictureImage.image = imageDict[@"image"];
+    }
 }
 
 @end

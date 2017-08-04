@@ -118,6 +118,10 @@
 	<string>App需要您的同意,才能在使用期间访问位置</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>${PRODUCT_NAME}需要获取你的相册功能，以便为你提供更好的服务</string>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>App需要您的同意，才能访问媒体资源库</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>App需要您的同意，才能访问麦克风</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>

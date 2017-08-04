@@ -25,4 +25,5 @@ typedef void(^AssetsPickerBlock)(PHAuthorizationStatus status ,NSArray *images);
  *  @param index 图片的坐标
  */
 - (void)removeImage:(NSInteger)index;
+
 @end
